@@ -66,13 +66,13 @@ body{
 
 .text-carousel h1{
     font-size:calc(1.575rem + 3.9vw);
-    font-weight: 700;
+    font-weight: 700 !important;
     line-height: 1.2;
     color:var(--bs-light);
 }
 .text-carousel h4{
     font-size:calc(.575rem + 1.9vw);
-    font-weight: 700;
+    font-weight: 700 !important;
     /* line-height: 1.2; */
     color:var(--bs-light);
 }
@@ -81,7 +81,7 @@ body{
     width:200px;
     margin:auto;
     /* margin-top:20px; */
-    text-decoration:none;
+    text-decoration:none !important;
 }
 
 /* .btn-contacto a{
@@ -95,9 +95,10 @@ body{
     border:none;
     background:var(--bs-warning);
     border-radius:50px;
-    font-weight:700;
+    font-weight:700 !important;
     width:200px;    
     transition: all .4s;
+    color:#111;
 }
 
 .btn-contacto:hover{
