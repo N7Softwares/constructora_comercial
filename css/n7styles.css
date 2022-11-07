@@ -10,7 +10,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 /* Variables */
 :root{
@@ -33,11 +35,90 @@
 
 /* --------------------------------Inicio-------------------------------------- */
 
-/* Para la informacion en el navbar-top */
-
-/* .gem-contacts-item.gem-contacts-phone{
-    padding-top:15px;
+/* .carousel-item{
+    height:600px;
 } */
+
+#inicio{
+    height:700px;
+}
+
+
+/* ------------ Slider ------------ */
+.card-carousel{
+    /*Parallax*/
+    /* background-attachment: fixed; */
+    background-repeat: repeat; 
+    height:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /* border:1px solid #fff; */
+}
+
+.text-carousel{
+    width:60vw;
+    /* border:1px solid #fff; */
+    text-align: center;
+
+}
+
+.text-carousel h1{
+    font-size:calc(1.575rem + 3.9vw);
+    font-weight: 700;
+    line-height: 1.2;
+    color:var(--bs-light);
+}
+.text-carousel h4{
+    font-size:calc(.575rem + 1.9vw);
+    font-weight: 700;
+    /* line-height: 1.2; */
+    color:var(--bs-light);
+}
+
+.btn-link{
+    width:200px;
+    margin:auto;
+    /* margin-top:20px; */
+    text-decoration:none;
+}
+
+/* .btn-contacto a{
+    width:200px !important;
+    border-radius:50px;
+    margin:auto;
+} */
+
+.btn-contacto{
+    padding: 16px 14px;
+    border:none;
+    background:var(--bs-warning);
+    border-radius:50px;
+    font-weight:700;
+    width:200px;    
+    transition: all .4s;
+}
+
+.btn-contacto:hover{
+    background: #111;
+    color:var(--bs-warning);
+    transition: all .4s;
+}
+
+.ci-1{
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
+    background-position: center;
+}
+.ci-2{
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
+    background-position: 90% 10%;
+    /* background-size:100%; */
+}
+.ci-3{
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/tools.webp);
+    /* background-size: auto; */
+}
 
 /* --------------------------------Navbar-------------------------------------- */
 
@@ -93,6 +174,11 @@ nav{
     margin-right: 4rem;
     list-style:none;
 }
+
+.nav-menu li:hover a{
+    transition: all .3s;
+}
+
 .nav-menu a{
     color: #fff;
     font-weight:600;
