@@ -19,9 +19,8 @@
 	    margin:30,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:true,
 	    dots: true,
-	    autoplayHoverPause: false,
+	    autoplayHoverPause: true,
 	    items: 1,
 	    responsive:{
 	      0:{
