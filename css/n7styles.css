@@ -122,6 +122,43 @@ body{
     /* background-size: auto; */
 }
 
+/* -----------------Seccion de mediaqueries----------------- */
+/*------- Desktop -------*/
+
+@media screen and (min-width: 1023px){
+    /* Primer item del carrousel */
+    .ci-1{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
+        background-position: left;
+        /* background-size:120%; */
+    }
+
+}
+
+/*------- Tablets -------*/
+@media screen and (min-width:768px) and (max-width:1022px) {
+
+    .ci-1{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
+         /* background-position: left; */
+        background-size:120%;
+    }
+    /* .ci-2{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
+        background-position: 90% 10%;
+    }
+    .ci-3{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/tools.webp);
+    } */
+
+}
+
+/*------- Smarphones -------*/
+@media screen and (max-width:767px){
+
+
+}
+
 /* --------------------------------Navbar-------------------------------------- */
 
 .gem-contacts-item.gem-contacts-phone li{
@@ -211,6 +248,8 @@ nav{
     display: none;
 }
 
+
+/* ---------------Navbar en pantallas menores a 769px--------------- */
 @media (max-width:768px){
 
     .col-xs-hidden{
@@ -239,10 +278,12 @@ nav{
         /* transform:translateY(-500px); */
         background: #222;
         width: 50%;
-        height: 450px;
+        height: 500px;
         right: 0;
         transition: all .25s;
-
+        /* display:flex;
+        flex-direction:column;
+        justify-content:center; */
     }
     .nav-menu ul li{
         padding: 2rem;
@@ -293,3 +334,20 @@ nav.fixed {
 }
 
 
+
+/* --------------------------------Seccion de Nosotros-------------------------------------- */
+
+/* .item{
+    height:300px;
+}
+.work-wrap.d-md-flex, .text, .img.order-md-last {
+    height:300px;
+} */
+
+/* ------Para el slider en pantallas medianas------ */
+@media screen and (min-width: 992px) and (max-width:1023px){
+    .owl-dots{
+        transform:translateY(-50px) translateX(-100px) rotate(-90deg);
+
+    }
+}
