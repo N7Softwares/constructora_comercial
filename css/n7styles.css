@@ -344,6 +344,12 @@ nav.fixed {
     height:300px;
 } */
 
+/* ------- Mision y Vision --------*/
+/* #services .col-lg-6{
+    padding-left:-15px !important;
+    padding-right:-15px !important;
+} */
+
 /* ------Para el slider en pantallas medianas------ */
 @media screen and (min-width: 992px) and (max-width:1023px){
     .owl-dots{

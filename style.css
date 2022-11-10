@@ -2034,6 +2034,8 @@ body.app_version .app_iphone_01 img {
   .col-xl-auto {
     position: relative;
     width: 100%;
+    /* padding-right:15px;
+    padding-left:15px; */   /*Cambios hechos por miguel para la seccion de mision/vision*/
    }
   
   .col {
@@ -9840,6 +9842,7 @@ body.app_version .app_iphone_01 img {
   
   .work-wrap .img {
     height: 700px;
+    /* width:100%; */ /*Cambios hechos por miguel para la seccion de mision/vision*/
      }
   
   .work-wrap .text {
