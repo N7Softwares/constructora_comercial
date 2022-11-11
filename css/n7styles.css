@@ -417,10 +417,9 @@ nav.fixed {
 
     .img-prod{
         height:180px;
-        background:var(--bs-primary);
     }
     .desc-prod{
-        height:230px;
-        background:var(--darkPretty2);
+        height:auto;
+        padding:20px 15px;
     }
 }
