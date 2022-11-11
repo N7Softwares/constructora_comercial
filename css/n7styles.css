@@ -281,27 +281,27 @@ nav{
         /* transform:translateY(-500px); */
         background: #222;
         width: 50%;
-        height: 500px;
-        right: 0;
+        height: 100vh;
+        /* right: 0; */
         transition: all .25s;
-        /* display:flex;
-        flex-direction:column;
-        justify-content:center; */
+        box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     }
     .nav-menu ul li{
         padding: 2rem;
         display: flex;
         justify-content: center;
         margin: 0;
+        font-size:1.3rem;
+        /* border-bottom:1px solid var(--bs-secondary);
+        border-top:1px solid var(--bs-secondary); */
+
     }
-    .nav-menu ul li:last-child{
+    /* .nav-menu ul li:last-child{
         background: none;
         padding: 1rem;
-    }
+    } */
     #check:checked ~ ul{
         left: 0;
-        /* transform:translateY(0); */
-        /* display: block; */
         transition: all .25s;
 
     }
