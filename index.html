@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
    <!-- Basic -->
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +7,15 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- Site Metas -->
-   <title>Constructed - Responsive HTML5 Landing Page Template</title>
+   <title>Constructora Comercial S.R.L</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
-   <meta name="author" content="">
+   <meta name="author" content="N7 Softwares">
    <!-- Site Icons -->
    <link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
    <!-- Bootstrap CSS -->
    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
-   rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
-   crossorigin="anonymous">
+
    <!-- Site CSS -->
    <link rel="stylesheet" href="style.css">
    <!-- Colors CSS -->
@@ -29,64 +27,161 @@
    <!-- building CSS -->
    <link rel="stylesheet" href="css/building.css">
    <!-- contact CSS -->
+   <!-- Para el carrousel de nosotros -->
+   <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+		
+		<link rel="stylesheet" href="css/css_about_us/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/css_about_us/owl.theme.default.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+		<link rel="stylesheet" href="css/style.css">
+   <!-- CSS Bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+   rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+   crossorigin="anonymous">
+   <!-- Estilos N7 -->
+   <link rel="stylesheet" href="css/n7styles.css">
+
+   <!-- Fuente de letra nueva experimental -->
+   <link href="https://fonts.cdnfonts.com/css/euclid-circular-a" rel="stylesheet">   
+   
    </head>
    <body class="building_version" data-spy="scroll" data-target=".header">
       <!-- LOADER -->
-      <div id="preloader">
+      <!-- <div id="preloader">
          <img class="preloader" src="images/loaders/loader-building2.gif" alt="">
-      </div>
+      </div> -->
       <!-- end loader -->
       <!-- END LOADER -->
-      <header class="header header_style_01">
-         <nav class="megamenu navbar navbar-default" data-spy="affix">
-            <div class="top-header">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-hidden">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-hidden">
-                           <div class="gem-contacts-item gem-contacts-phone">
-                              <a class="phone-icon" href="#" target="_blank" title="phone"><i class="fa fa-phone" aria-hidden="true"></i>+1 999-888-77-66</a>
-                           </div>
-                        </div>
-                        <div class="top-area-block top-area-socials socials-colored-hover">
-                           <div class="socials inline-inside"> 
-                              <a class="socials-item" href="#" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                              <a class="socials-item" href="#" target="_blank" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
-                              <a class="socials-item" href="#" target="_blank" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                              <a class="socials-item" href="#" target="_blank" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
-                              <a class="socials-item" href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a> 
-                              <a class="socials-item" href="#" target="_blank" title="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                           </div>
+
+<!---------------------------------------------------- Navbar ---------------------------------------------------->
+      <!-- Version CSS HTML puro -->
+      <header>
+      <div class="header-top col-xs-hidden">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-hidden">
+                     <div class="row">
+                     <div class="col-lg-8 col-md-10 col-sm-11 col-xs-hidden">
+                        <div class="gem-contacts-item gem-contacts-phone">
+                           <ul>
+                              <li>
+                                 <a href="#">
+                                    <span class="fa fa-phone"></span>
+                                    +1 999-888-77-66
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <span class="fa fa-envelope"></span>
+                                    contacto@construcom.com
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <span class="fa fa-clock-o"></span>
+                                    Lun - Vier, 7:30 - 18:30
+                                 </a>
+                              </li>
+                           </ul>
                         </div>
                      </div>
+                     <div class="col-lg-4 col-md-2 col-sm-1 col-xs-hidden text-end">
+                        <div class="top-area-block top-area-socials socials-colored-hover">
+                        <div class="socials inline-inside"> 
+                           <a class="socials-item" href="#mapa" title="ubicacion"><i class="fa fa-map-marker" aria-hidden="true"></i></a> 
+                           <a class="socials-item" href="#" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                         
+                        </div>
+                     </div>
+                     </div>
+                  </div>
                   </div>
                </div>
             </div>
-            <div class="container">
-               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="index.html"><img src="images/logo-icon.png" alt="image"><span>Constructed</span></a>
-               </div>
-               <div id="navbar" class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav navbar-right">
-                     <li class="active"><a data-scroll href="#home">Home</a></li>
-                     <li><a data-scroll href="#about">About Us <span class="hidden-xs">*</span></a></li>
-                     <li><a data-scroll href="#services">Services</a></li>
-                     <li><a data-scroll href="#projects">Our Work</a></li>
-                     <li><a data-scroll href="#testimonials">Testimonials</a></li>
-                     <li><a data-scroll href="#price">Price</a></li>
-                     <li><a data-scroll href="#contact">Contactos</a></li>
-                  </ul>
+      </div>
+      <nav id="menu">
+         <div class="logo-header">
+             <a href=""><img src="" alt=""></a>
+         </div>
+         <div class="nav-menu">
+             <input type="checkbox" id="check">    
+             <label for="check" class="checkbtn">
+                 <i class="menu-icon"><img src="./images/menu.svg" alt=""></i>
+               </label>
+             <ul>
+                 <li><a href="#">INICIO</a></li>
+                 <li><a href="#nosotros">NOSOTROS</a></li>
+                 <li><a href="#productos">PRODUCTOS</a></li>
+                 <li><a href="#">ALCANCE</a></li>
+                 <li><a href="#contacto">CONTACTO</a></li>
+             </ul>
+         </div>
+     </nav>    
+<!---------------------------------------------------- Inicio ---------------------------------------------------->
+
+     <div id="inicio">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="card-carousel ci-1">
+                 <div class="text-carousel">
+                    <h1>Constructora Comercial S.R.L.</h1>
+                    <h4>Alquiler de Máquinas</h4>
+                    <div class="btn-link">
+                     <a href="#contacto">
+                        <div class="btn-contacto">
+                           CONTACTENOS
+                        </div>
+                     </a>
+                  </div>
+                 </div>            
+              </div>
+             </div>
+           <div class="carousel-item">
+             <div class="card-carousel ci-2">
+               <div class="text-carousel">
+                  <h1>Constructora Comercial S.R.L.</h1>
+                  <h4>Materiales de Construcción</h4>
+                  <div class="btn-link">
+                     <a href="#contacto">
+                        <div class="btn-contacto">
+                           CONTACTENOS
+                        </div>
+                     </a>
+                  </div>
+               </div>            
+            </div>
+           </div>
+           <div class="carousel-item">
+            <div class="card-carousel ci-3" >
+               <div class="text-carousel">
+                  <h1>Constructora Comercial S.R.L.</h1>
+                  <h4>Herramientas de Construcción</h4>
+                  <div class="btn-link">
+                     <a href="#contacto">
+                        <div class="btn-contacto">
+                           CONTACTENOS
+                        </div>
+                     </a>
+                  </div>
+                  
                </div>
             </div>
-         </nav>
-      </header>
-      <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/building/slide-img1.png');">
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+      </div>
+
+   </header>
+      <!-- <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/building/slide-img1.png');">
          <div class="container">
             <div class="row">
                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center">
@@ -99,304 +194,187 @@
                   </div>
                </div>
             </div>
-            <!-- end row -->
          </div>
-         <!-- end container -->
-      </div>
+      </div> -->
+      
       <!-- end section -->
-      <div id="about" class="section wb">
+
+<!---------------------------------------------------- Nosotros ---------------------------------------------------->
+
+      <div id="nosotros" class="section">
          <div class="container">
-            <div class="row">
-               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                  <div class="message-box">
-                     <h2>About Us</h2>
-                     <h5>WE ARE THE LEADERS IN THE CONSTRUCTION INDUSTRY!</h5>
-                  </div>
-                  <!-- end messagebox -->
-               </div>
-               <!-- end col -->
-               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                  <div class="message-box">
-                     <p class="lead">Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-                     <a href="#" class="read-more">Read More</a>
-                  </div>
-                  <!-- end messagebox -->
-               </div>
-               <!-- end col -->
+            <div class="section-title">
+               <h3>NOSOTROS</h3>
             </div>
-            <!-- end row -->
-            <div class="row text-center about-row">
-               <div class="col-md-4 col-sm-12 col-xs-12">
-                  <div class="row">
-                     <div class="service-widget">
-                        <div class="post-media wow fadeIn">
-                           <a href="uploads/building_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                           <img src="uploads/building_01.jpg" alt="" class="img-responsive img-rounded">
-                        </div>
-                        <h3>Spacious and Large Garden</h3>
-                        <p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
-                     </div>
-                     <!-- end service -->
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-12 col-xs-12">
-                  <div class="row">
-                     <div class="service-widget">
-                        <div class="post-media wow fadeIn">
-                           <a href="uploads/building_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                           <img src="uploads/building_02.jpg" alt="" class="img-responsive img-rounded">
-                        </div>
-                        <h3>With its Own Pool</h3>
-                        <p>Duis at tellus at dui tincidunt scelerisque nec sed felis. Suspendisse id dolor sed leo rutrum euismod. Nullam vestibulum fermentum erat. It nam auctor. </p>
-                     </div>
-                     <!-- end service -->
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-12 col-xs-12">
-                  <div class="row">
-                     <div class="service-widget">
-                        <div class="post-media wow fadeIn">
-                           <a href="uploads/building_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                           <img src="uploads/building_03.jpg" alt="" class="img-responsive img-rounded">
-                        </div>
-                        <h3>In Forests- Fresh Clean Air</h3>
-                        <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet lacus vitae massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
-                     </div>
-                     <!-- end service -->
-                  </div>
-               </div>
-            </div>
-            <!-- end row -->
-         </div>
-         <!-- end container -->
-         <div class="sep1"></div>
+				<div class="row">
+					<!-- <div class="col-md-12 text-center">
+						<h2 class="heading-section mb-5">Sobre Nosotros</h2>
+					</div> -->
+					<div class="col-lg-12 col-md-12">
+						<div class="featured-carousel owl-carousel">
+							<div class="item">
+								<div class="work-wrap d-md-flex">
+									<div class="img order-md-last" style="background-image: url(images/testimo.jpg);"></div>
+									<div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
+										<div class="py-md-5">
+											<h2 class="mb-4">Sobre <br> Nosotros</h2>
+											<p class="h5">Call: 0123 456 78901</p>
+											<p class="h5 mb-4">Email Address: email@info.com</p>
+											<div class="row justify-content-end">
+												<div class="col-xl-8">
+													<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work-wrap d-md-flex">
+									<div class="img order-md-last" style="background-image: url(images/1.png);"></div>
+									<div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
+										<div class="py-md-5">
+											<h2 class="mb-4">Historia <br> de la Empresa</h2>
+											<p class="h5">Call: 0123 456 78901</p>
+											<p class="h5 mb-4">Email Address: email@info.com</p>
+											<div class="row justify-content-end">
+												<div class="col-xl-8">
+													<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work-wrap d-md-flex">
+									<div class="img order-md-last" style="background-image: url(images/pro1.png);"></div>
+									<div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
+										<div class="py-md-5">
+											<h2 class="mb-4">Actualidad <br> de la Empresa</h2>
+											<p class="h5">Call: 0123 456 78901</p>
+											<p class="h5 mb-4">Email Address: email@info.com</p>
+											<div class="row justify-content-end">
+												<div class="col-xl-8">
+													<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
       </div>
       <!-- end section -->
       <div id="services" class="parallax section db parallax-off no-padding-bottom"  >
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                  <div class="message-box">
-                     <h2>Services</h2>
-                     <h5>WE ARE THE LEADERS IN THE CONSTRUCTION INDUSTRY!</h5>
-                  </div>
-                  <!-- end messagebox -->
-               </div>
-               <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                  <div class="row">
-                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="service-inform">
-                           <div class="icon-service">
-                              <img src="images/icon1.png" alt="#" />
-                           </div>
-                           <div class="service-inform-text">
-                              <h3>Service One</h3>
-                              <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="service-inform">
-                           <div class="icon-service">
-                              <img src="images/icon4.png" alt="#" />
-                           </div>
-                           <div class="service-inform-text">
-                              <h3>Service Two</h3>
-                              <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="row">
-               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 serv" style="background-color:#222;">
+               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 serv" style="background-color:#222;">
                   <div class="serv-blog">
-                     <img src="images/sr1.png" alt="#" />
+                     <img src="images/mision.svg" alt="#" />
                   </div>
-                  <div class="serv-blog-cont">
-                     <h3>Manufacturing</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                  <div class="serv-blog">
+                     <h3>Misión</h3>
+                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#181818;">
+               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 serv" style="background:#181818;">
                   <div class="serv-blog">
-                     <img src="images/sr2.png" alt="#" />
+                     <img src="images/vision.svg" alt="#" />
                   </div>
-                  <div class="serv-blog-cont">
-                     <h3>Fabrication</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 serv" style="background:#222;">
                   <div class="serv-blog">
-                     <img src="images/sr3.png" alt="#" />
-                  </div>
-                  <div class="serv-blog-cont">
-                     <h3>Construction</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                     <h3>Visión</h3>
+                     <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                   </div>
                </div>
             </div>
          </div>
       </div>
       <!-- end section -->
-      <div id="projects" class="section">
+      <div id="productos" class="section">
          <div class="container">
-            <div class="row">
-               <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                  <div class="message-box">
-                     <h2>Our Projects</h2>
-                     <h5>Contrary to popular belief, Lorem Ipsum is not simply random text.</h5>
-                  </div>
-                  <!-- end messagebox -->
-               </div>
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div class="row">
-                     <div class="container gal-container">
-                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
-                           <div class="box">
-                              <a href="#" data-toggle="modal" data-target="#1">
-                              <img src="images/pro1.png" alt="#" />
-                              </a>
-                              <div class="modal fade" id="1" tabindex="-1" role="dialog">
-                                 <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                       <div class="modal-body">
-                                          <img src="images/pro1.png" alt="#" />
-                                       </div>
-                                       <div class="col-md-12 description">
-                                          <h4>This is the first one on my Gallery</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
+            <div class="section-title">
+               <h3>Productos</h3>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                  <div class="cards-productos">
+                     <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-12 col-lg-5 col-md-5 col-sm-5 img-prod d-flex justify-content-center align-items-center">
+                           <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aperiam.</p> -->
+                           <div class="text-light text-center">
+                              <h3>[img producto]</h3>
                            </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                           <div class="box">
-                              <a href="#" data-toggle="modal" data-target="#2">
-                              <img src="images/pro2.png" alt="#" />
-                              </a>
-                              <div class="modal fade" id="2" tabindex="-1" role="dialog">
-                                 <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                       <div class="modal-body">
-                                          <img src="images/pro2.png" alt="#" />
-                                       </div>
-                                       <div class="col-md-12 description">
-                                          <h4>This is the second one on my Gallery</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                           <div class="box">
-                              <a href="#" data-toggle="modal" data-target="#3">
-                              <img src="images/pro3.png" alt="#" />
-                              </a>
-                              <div class="modal fade" id="3" tabindex="-1" role="dialog">
-                                 <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                       <div class="modal-body">
-                                          <img src="images/pro3.png" alt="#" />
-                                       </div>
-                                       <div class="col-md-12 description">
-                                          <h4>This is the third one on my Gallery</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                           <div class="box">
-                              <a href="#" data-toggle="modal" data-target="#4">
-                              <img src="images/pro4.png" alt="#" />
-                              </a>
-                              <div class="modal fade" id="4" tabindex="-1" role="dialog">
-                                 <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                       <div class="modal-body">
-                                          <img src="images/pro4.png" alt="#" />
-                                       </div>
-                                       <div class="col-md-12 description">
-                                          <h4>This is the fourth one on my Gallery</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                           <div class="box">
-                              <a href="#" data-toggle="modal" data-target="#5">
-                              <img src="images/pro3.png" alt="#" />
-                              </a>
-                              <div class="modal fade" id="5" tabindex="-1" role="dialog">
-                                 <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                       <div class="modal-body">
-                                          <img src="images/pro4.png" alt="#" />
-                                       </div>
-                                       <div class="col-md-12 description">
-                                          <h4>This is the fifth one on my Gallery</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                           <div class="box">
-                              <a href="#" data-toggle="modal" data-target="#9">
-                              <img src="images/pro2.png" alt="#" />
-                              </a>
-                              <div class="modal fade" id="9" tabindex="-1" role="dialog">
-                                 <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                       <div class="modal-body">
-                                          <img src="images/pro2.png" alt="#" />
-                                       </div>
-                                       <div class="col-md-12 description">
-                                          <h4>This is the ninth one on my Gallery</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
-                           <div class="box">
-                              <a href="#" data-toggle="modal" data-target="#10">
-                              <img src="images/pro1.png" alt="#" />
-                              </a>
-                              <div class="modal fade" id="10" tabindex="-1" role="dialog">
-                                 <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                       <div class="modal-body">
-                                          <img src="images/pro1.png" alt="#" />
-                                       </div>
-                                       <div class="col-md-12 description">
-                                          <h4>This is the tenth one on my Gallery</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
+                        <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod">
+                           <div class="container">
+                           <h3>Nombre Producto</h3>
+                           <p>Lorem ipsum dolor sit amet consectetur 
+                              adipisicing elit. Quisquam cum qui eum, 
+                              dolore iusto voluptatibus pariatur officiis 
+                              tempora exercitationem quo asperiores fugit 
+                              harum accusamus expedita, explicabo unde dicta 
+                              neque officia.</p>
                            </div>
                         </div>
                      </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                  <div class="cards-productos">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-12 col-lg-5 col-md-5 col-sm-5 img-prod d-flex justify-content-center align-items-center">
+                              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aperiam.</p> -->
+                              <div class="text-light text-center">
+                                 <h3>[img producto]</h3>
+                              </div>
+                           </div>
+                           <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod">
+                              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aperiam.</p> -->
+                           <div class="container">
+                              <h3>Nombre Producto</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur 
+                                 adipisicing elit. Quisquam cum qui eum, 
+                                 dolore iusto voluptatibus pariatur officiis 
+                                 tempora exercitationem quo asperiores fugit 
+                                 harum accusamus expedita, explicabo unde dicta 
+                                 neque officia.</p>
+                              </div>
+                           </div>
+                        </div>
+                        </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                  <div class="cards-productos">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-12 col-lg-5 col-md-5 col-sm-5 img-prod d-flex justify-content-center align-items-center">
+                              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aperiam.</p> -->
+                              <div class="text-light text-center">
+                                 <h3>[img producto]</h3>
+                              </div>
+                           </div>
+                           <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod">
+                              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aperiam.</p> -->
+                              <div class="container">
+                                 <h3>Nombre Producto</h3>
+                                 <p>Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Quisquam cum qui eum, 
+                                    dolore iusto voluptatibus pariatur officiis 
+                                    tempora exercitationem quo asperiores fugit 
+                                    harum accusamus expedita, explicabo unde dicta 
+                                    neque officia.</p>
+                                 </div>
+                           </div>
+                        </div>
+                        </div>
                   </div>
                </div>
             </div>
@@ -498,7 +476,132 @@
          <!-- end container -->
       </div>
       <!-- end section -->
-      <div id="contact" class="section wb">
+      <div id="price" class="section pr">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="tab-content">
+                     <div class="tab-pane active fade in" id="tab1">
+                        <div class="row text-center">
+                           <div class="col-md-4">
+                              <div class="pricing-table">
+                                 <div class="pricing-table-header">
+                                    <h2>Shared Hosting</h2>
+                                    <h3>$85/month</h3>
+                                 </div>
+                                 <div class="pricing-table-space"></div>
+                                 <div class="pricing-table-features">
+                                    <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                    <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                    <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                    <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                 </div>
+                                 <div class="pricing-table-sign-up">
+                                    <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="pricing-table pricing-table-highlighted">
+                                 <div class="pricing-table-header grd1">
+                                    <h2>WordPress Hosting</h2>
+                                    <h3>$59/year</h3>
+                                 </div>
+                                 <div class="pricing-table-space"></div>
+                                 <div class="pricing-table-text">
+                                    <p>This is a perfect choice for small businesses and startups.</p>
+                                 </div>
+                                 <div class="pricing-table-features">
+                                    <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
+                                    <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
+                                    <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
+                                    <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
+                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                 </div>
+                                 <div class="pricing-table-sign-up">
+                                    <a href="#contact" data-scroll="" class="btn btn-light btn-radius btn-brd grd1 effect-1">Order Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="pricing-table">
+                                 <div class="pricing-table-header">
+                                    <h2>Reseller Hosting</h2>
+                                    <h3>$85/one-time</h3>
+                                 </div>
+                                 <div class="pricing-table-space"></div>
+                                 <div class="pricing-table-features">
+                                    <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                    <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                    <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                    <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                 </div>
+                                 <div class="pricing-table-sign-up">
+                                    <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- end row -->
+                     </div>
+                     <!-- end pane -->
+                     <div class="tab-pane fade" id="tab2">
+                        <div class="row text-center">
+                           <div class="col-md-6">
+                              <div class="pricing-table">
+                                 <div class="pricing-table-header">
+                                    <h2>Dedicated Server</h2>
+                                    <h3>$85/month</h3>
+                                 </div>
+                                 <div class="pricing-table-space"></div>
+                                 <div class="pricing-table-features">
+                                    <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                    <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                    <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                    <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                 </div>
+                                 <div class="pricing-table-sign-up">
+                                    <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="pricing-table pricing-table-highlighted">
+                                 <div class="pricing-table-header grd1">
+                                    <h2>VPS Server</h2>
+                                    <h3>$59/month</h3>
+                                 </div>
+                                 <div class="pricing-table-space"></div>
+                                 <div class="pricing-table-text">
+                                    <p>This is a perfect choice for small businesses and startups.</p>
+                                 </div>
+                                 <div class="pricing-table-features">
+                                    <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
+                                    <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
+                                    <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
+                                    <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
+                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                 </div>
+                                 <div class="pricing-table-sign-up">
+                                    <a href="#contact" data-scroll="" class="btn btn-light btn-radius btn-brd grd1 effect-1">Order Now</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- end row -->
+                     </div>
+                     <!-- end pane -->
+                  </div>
+                  <!-- end content -->
+               </div>
+               <!-- end col -->
+            </div>
+         </div>
+      </div>
+      <div id="contacto" class="section wb">
          <div class="container">
             <div class="section-title row text-center">
                <div class="col-md-12 col-md-offset-4">
@@ -573,12 +676,14 @@
          <!-- end container -->
       </div>
       <!-- Mapa  -->
-      <div class="row">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.068061949395!2d-58.19878228547077!3d-26.161912768607923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945caff281ff5181%3A0x2a45b8e0e0978754!2sConstructora%20Comercial%20S.R.L.!5e0!3m2!1ses!2sar!4v1667666086512!5m2!1ses!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="container-fluid">
+      <div class="row" id="mapa">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.068061949395!2d-58.19878228547077!3d-26.161912768607923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945caff281ff5181%3A0x2a45b8e0e0978754!2sConstructora%20Comercial%20S.R.L.!5e0!3m2!1ses!2sar!4v1667666086512!5m2!1ses!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
       </div>
       <!-- end mapa -->
       <!-- footer -->
-      <footer id="footer">
+      <footer id="footer" class="mt-2">
          <div id="footer-widgets" class="container style-1">
             <div class="row">
                <div class="col-md-4">
@@ -594,12 +699,11 @@
                   <div class="widget widget_links">
                      <h2 class="widget-title"><span>ENLACES</span></h2>
                      <ul class="wprt-links clearfix col2">
-                        <li><a data-scroll="" href="#home">INICIO</a></li>
-                        <li><a data-scroll="" href="#about">SOBRE NOSOTROS</a></li>
-                        <li><a data-scroll="" href="#">SERVICIOS</a></li>
-                        <li><a data-scroll="" href="#">PRODUCTOS</a></li>
+                        <li><a data-scroll="" href="#">INICIO</a></li>
+                        <li><a data-scroll="" href="#nosotros">NOSOTROS</a></li>
+                        <li><a data-scroll="" href="#productos">PRODUCTOS</a></li>
                         <li><a data-scroll="" href="#">ALCANCE</a></li>
-                        <li><a data-scroll="" href="#contact">CONTACTO</a></li>
+                        <li><a data-scroll="" href="#contacto">CONTACTO</a></li>
 					 </ul>
                   </div>
                </div>
@@ -635,10 +739,15 @@
          </div>
          <div id="bottom" class="clearfix style-1">
             <div class="container">
-               <div id="bottom-bar-inner" class="wprt-container">
-                  <div class="bottom-bar-inner-wrap">
-                     <div class="bottom-bar-content">
-                        <div id="copyright">Todos los derechos reservados. N7 Softwares © 2022</div>
+               <div id="bottom-bar-inner" class="wprt-container ">
+                  <div class="bottom-bar-inner-wrap text-center ">
+                     <div class="bottom-bar-content text-center  w-100">
+                        <div id="copyright" class=" ">
+                           <p class="text-center text-secondary mb-0">
+                              Todos los derechos reservados. Sitio Web creado por 
+                              <a href="https://n7softwares.github.io/" target="_blank">N7 Softwares© 2022</a>
+                           </p>
+                        </div>
                         <!-- /#copyright -->
                      </div>
                      <!-- /.bottom-bar-content -->
@@ -656,16 +765,24 @@
          </div>
       </footer>
       <!-- end footer -->
-      <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      <a href="#" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
       <!-- ALL JS FILES -->
       <script src="js/all.js"></script>
       <!-- ALL PLUGINS -->
       <script src="js/custom.js"></script>
       <script src="js/portfolio.js"></script>
-      <script src="js/hoverdir.js"></script>
-      <!-- JavaScript Bundle with Popper -->
+      <script src="js/hoverdir.js"></script>   
+      <!-- JS del slider nosotros -->
+      <script src="js/js_about_us/popper.js"></script>
+      <script src="js/js_about_us/bootstrap.min.js"></script>
+      <script src="js/js_about_us/owl.carousel.min.js"></script>
+      <script src="js/js_about_us/main.js"></script>
+       <!-- JavaScript Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <!-- JS Propios -->
+      <script src="./js/n7.js"></script>
+
    </body>
 </html>
 
