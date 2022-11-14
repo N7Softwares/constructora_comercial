@@ -357,10 +357,10 @@ nav.fixed {
 
 /* ------Para el slider en pantallas medianas------ */
 @media screen and (min-width: 992px) and (max-width:1023px){
-    .owl-dots{
+    /* .owl-dots{
         transform:translateY(-50px) translateX(-100px) rotate(-90deg);
 
-    }
+    } */
 }
 
 
