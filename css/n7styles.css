@@ -114,8 +114,9 @@ body{
 }
 
 .ci-1{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
-    background-position: center;
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img2.jpg);
+    background-position: bottom;
+    /* background-size:100%; */
 }
 .ci-2{
     background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
@@ -130,39 +131,24 @@ body{
 /* -----------------Seccion de mediaqueries----------------- */
 /*------- Desktop -------*/
 
-@media screen and (min-width: 1023px){
-    /* Primer item del carrousel */
+/* @media screen and (min-width: 1023px){
     .ci-1{
         background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
         background-position: left;
-        /* background-size:120%; */
     }
 
-}
+} */
 
 /*------- Tablets -------*/
-@media screen and (min-width:768px) and (max-width:1022px) {
+/* @media screen and (min-width:768px) and (max-width:1022px) {
 
     .ci-1{
         background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
-         /* background-position: left; */
         background-size:120%;
     }
-    /* .ci-2{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
-        background-position: 90% 10%;
-    }
-    .ci-3{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/tools.webp);
-    } */
+   
 
-}
-
-/*------- Smarphones -------*/
-@media screen and (max-width:767px){
-
-
-}
+} */
 
 /* --------------------------------Navbar-------------------------------------- */
 
@@ -254,61 +240,6 @@ nav{
 }
 
 
-/* ---------------Navbar en pantallas menores a 769px--------------- */
-@media (max-width:768px){
-
-    .col-xs-hidden{
-        display:none;
-    }
-
-    nav{
-        height:70px;
-    }
-    .checkbtn{
-        display: block;
-    }
-    .menu-icon{
-        display: block;
-        /* position: fixed; */
-        /* top: 10px; */
-        /* right: 20px; */
-        cursor: pointer;
-        margin-right:10px;
-    }
-    .nav-menu ul{
-        display: block;
-        position: absolute;
-        top:70px;
-        left:-100%;
-        /* transform:translateY(-500px); */
-        background: #222;
-        width: 50%;
-        height: 100vh;
-        /* right: 0; */
-        transition: all .25s;
-        box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    }
-    .nav-menu ul li{
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        font-size:1.3rem;
-        /* border-bottom:1px solid var(--bs-secondary);
-        border-top:1px solid var(--bs-secondary); */
-
-    }
-    /* .nav-menu ul li:last-child{
-        background: none;
-        padding: 1rem;
-    } */
-    #check:checked ~ ul{
-        left: 0;
-        transition: all .25s;
-
-    }
-}
-
 
 /* Para poner fixed en js */
 
@@ -334,8 +265,8 @@ nav.fixed {
   }
 
 .active-item{           /*Para utilizar en js*/
-    color:var(--bs-danger) !important;
-    transform: translateX(5px) scale(1) !important;
+    color:var(--bs-warning) !important;
+    /* transform: translateX(5px) scale(1) !important; */
 }
 
 
@@ -424,4 +355,122 @@ nav.fixed {
         height:auto;
         padding:20px 15px;
     }
+}
+
+/* -------------------------------- Seccion de Alcance -------------------------------------- */
+
+
+
+
+
+/* -------------------------------- Seccion de Contacto -------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------- Seccion de Responsive -------------------------------------- */
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+    .ci-1{
+        /* background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp); */
+        background-position: center;
+        /* background-size: 120%; */
+    }
+    /* .ci-2{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
+        background-position: 90% 10%;
+    }
+    .ci-3{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/tools.webp);
+    } */
+}
+
+
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/* ---------------Mediaqueries pára Navbar en pantallas menores a 769px--------------- */
+@media (max-width:768px){
+
+    .col-xs-hidden{
+        display:none;
+    }
+
+    nav{
+        height:70px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        /* position: fixed; */
+        /* top: 10px; */
+        /* right: 20px; */
+        cursor: pointer;
+        margin-right:10px;
+    }
+    .nav-menu ul{
+        display: block;
+        position: absolute;
+        top:70px;
+        left:-100%;
+        /* transform:translateY(-500px); */
+        background: #222;
+        width: 50%;
+        height: 100vh;
+        /* right: 0; */
+        transition: all .25s;
+        box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    }
+    .nav-menu ul li{
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-size:1.3rem;
+        /* border-bottom:1px solid var(--bs-secondary);
+        border-top:1px solid var(--bs-secondary); */
+
+    }
+    /* .nav-menu ul li:last-child{
+        background: none;
+        padding: 1rem;
+    } */
+    #check:checked ~ ul{
+        left: 0;
+        transition: all .25s;
+
+    }
+}
+
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/*Celulares*/
+@media only screen and (max-width: 575px){
+
+}
+
+/*Celulares angostos*/
+@media only screen and (max-width:365px){
+
 }
