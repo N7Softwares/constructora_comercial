@@ -392,6 +392,12 @@ nav.fixed {
 
 
 
+/* -------------------------------- Seccion de Footer -------------------------------------- */
+
+.dmtop{
+    z-index:3;
+}
+
 
 
 
@@ -403,8 +409,8 @@ nav.fixed {
 @media only screen and (min-width: 1200px){
     .ci-1{
         /* background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp); */
-        background-position: center;
-        /* background-size: 120%; */
+        background-position: 50% 70%;
+        background-size: 100%;
     }
     /* .ci-2{
         background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
@@ -435,7 +441,7 @@ nav.fixed {
     }
 
     nav{
-        height:70px;
+        height:60px;
     }
     .checkbtn{
         display: block;
@@ -453,7 +459,7 @@ nav.fixed {
         flex-direction: column;
         align-items: center;
         position: absolute;
-        top:70px;
+        top:60px;
         left:-100%;
         /* transform:translateY(-500px); */
         background: var(--darkBodyP);
@@ -463,6 +469,7 @@ nav.fixed {
         transition: all .25s;
         box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
         padding-left:0;
+        /* z-index:80 !important; */
     }
     .nav-menu ul li{
         padding: 2rem;
@@ -481,7 +488,7 @@ nav.fixed {
         padding: 1rem;
     } */
     #check:checked ~ ul{
-        left: 0;
+        left:0;
         transition: all .25s;
 
     }
@@ -495,10 +502,45 @@ nav.fixed {
 
 /*Celulares*/
 @media only screen and (max-width: 575px){
+/* ---------------Inicio--------------- */
+    
+    .ci-1{
+        background-position: 30% 40%;
+        background-size:170%;
+    }
+    .ci-2{
+        background-position: 90% 10%;
+        background-size:230%;
+    }
+    .ci-3{
+        background-position: center;
+        background-size:230%;
+    }
 
 }
 
 /*Celulares angostos*/
 @media only screen and (max-width:365px){
+/* ---------------Inicio--------------- */
+
+    .ci-1{
+        background-position: 10% 60%;
+        background-size:190%;
+    }
+    .ci-2{
+        background-position: 90% 10%;
+        background-size:250%;
+    }
+    .ci-3{
+        background-position: center;
+        background-size:260%;
+    }
+
+
+/* ---------------Footer--------------- */
+
+    #footer{
+        background-size:450%;
+    }
 
 }
