@@ -72,67 +72,110 @@ var simplemaps_countrymap_mapdata={
     PRY4837: {
       name: "Asunción",
       description: "default",
-      color: "default",
-      hover_color: "default",
+      color: "#e8a900",
+      hover_color: "#664a00",
       url: "default"
     },
     PRY597: {
-      name: "Alto Paraguay"
+      name: "Alto Paraguay",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     PRY598: {
-      name: "Boquerón"
+      name: "Boquerón",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY603: {
-      name: "Concepción"
+      name: "Concepción",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     PRY604: {
-      name: "Cordillera"
+      name: "Cordillera",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY605: {
-      name: "Presidente Hayes"
+      name: "Presidente Hayes",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY606: {
-      name: "San Pedro"
+      name: "San Pedro",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY607: {
-      name: "Central"
+      name: "Central",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY608: {
-      name: "Guairá"
+      name: "Guairá",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY609: {
-      name: "Misiones"
+      name: "Misiones",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY610: {
-      name: "Ñeembucú"
+      name: "Ñeembucú",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY611: {
-      name: "Paraguarí"
+      name: "Paraguarí",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     PRY615: {
-      name: "Amambay"
+      name: "Amambay",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     PRY616: {
-      name: "Alto Paraná"
+      name: "Alto Paraná",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     PRY617: {
-      name: "Caaguazú"
+      name: "Caaguazú",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     PRY618: {
-      name: "Caazapá"
+      name: "Caazapá",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     PRY619: {
-      name: "Canindeyú"
+      name: "Canindeyú",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     PRY620: {
-      name: "Itapúa"
+      name: "Itapúa",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     }
   },
-  locations: {
+ /* locations: {
     "0": {
       lat: "-25.29389",
       lng: "-57.611111",
       name: "Asunción"
     }
   }
+  */
 };

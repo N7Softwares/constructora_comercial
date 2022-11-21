@@ -71,86 +71,145 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     ARG1271: {
       name: "Santa Cruz",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "No hay pedidos.",
+      color: "grey",
+      hover_color: "grey",
       url: "default"
     },
     ARG1272: {
-      name: "Tierra del Fuego"
+      name: "Tierra del Fuego",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1273: {
-      name: "San Juan"
+      name: "San Juan",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1274: {
-      name: "Chubut"
+      name: "Chubut",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1275: {
-      name: "Mendoza"
+      name: "Mendoza",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1276: {
-      name: "Neuquén"
+      name: "Neuquén",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1295: {
-      name: "Buenos Aires"
+      name: "Buenos Aires",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1296: {
-      name: "La Pampa"
+      name: "La Pampa",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1297: {
-      name: "Río Negro"
+      name: "Río Negro",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1298: {
-      name: "San Luis"
+      name: "San Luis",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1299: {
-      name: "Córdoba"
+      name: "Córdoba",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1300: {
-      name: "Catamarca"
+      name: "Catamarca",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1301: {
-      name: "Jujuy"
+      name: "Jujuy",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1302: {
-      name: "La Rioja"
+      name: "La Rioja",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1303: {
-      name: "Salta"
+      name: "Salta",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1304: {
-      name: "Santiago del Estero"
+      name: "Santiago del Estero",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1305: {
-      name: "Tucumán"
+      name: "Tucumán",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1306: {
-      name: "Chaco"
+      name: "Chaco",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1307: {
-      name: "Formosa"
+      name: "Formosa",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1308: {
-      name: "Corrientes"
+      name: "Corrientes",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1309: {
-      name: "Entre Ríos"
+      name: "Entre Ríos",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     },
     ARG1310: {
-      name: "Santa Fe"
+      name: "Santa Fe",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG1312: {
-      name: "Misiones"
+      name: "Misiones",
+      color: "#e8a900",
+      hover_color: "#664a00"
     },
     ARG5493: {
-      name: "Ciudad de Buenos Aires"
+      name: "Ciudad de Buenos Aires",
+      color: "grey",
+      hover_color: "grey",
+      description: "No hay pedidos."
     }
   },
   locations: {
     "0": {
-      lat: "-34.606389",
-      lng: "-58.435278",
-      name: "Buenos Aires"
+      lat: "-26.1775300",
+      lng: "-58.1781400",
+      name: "Formosa"
     }
   }
 };
