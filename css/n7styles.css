@@ -407,34 +407,76 @@ nav.fixed {
 
 /* Escritorio extra grande */
 @media only screen and (min-width: 1200px){
+    /* --------------------------- Inicio ---------------------------- */
     .ci-1{
         /* background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp); */
         background-position: 50% 70%;
-        background-size: 100%;
+        background-size: cover;
     }
-    /* .ci-2{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
+    .ci-2{
         background-position: 90% 10%;
+        background-size:cover;
+    
     }
     .ci-3{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/tools.webp);
-    } */
+        background-size: cover;
+    }
  }
 
 
 /* Escritorio grande */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
+    /* --------------------------- Inicio ---------------------------- */
 
+    .ci-1{
+        background-position: 50% 70%;
+        background-size: cover;
+    }
+    .ci-2{
+        background-size:cover;
+    }
+    .ci-3{
+        background-position: center;
+        background-size:cover;
+    }
 }
 
 /* Escritorio pequeño / tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px){
+/* --------------------------- Inicio ---------------------------- */
 
+    .ci-1{
+        /* background-position: 50% 70%; */
+        background-size: cover;
+    }
+    .ci-2{
+        background-size:cover;
+    }
+    .ci-3{
+        background-position: center;
+        background-size:cover;
+    }
 }
 
 
 /* ---------------Mediaqueries pára Navbar en pantallas menores a 769px--------------- */
 @media (max-width:768px){
+
+ /* --------------------------- Inicio ---------------------------- */
+
+    .ci-1{
+        /* background-position: 50% 70%; */
+        background-size: cover;
+    }
+    .ci-2{
+        background-size:cover;
+    }
+    .ci-3{
+        background-position: center;
+        background-size:cover;
+    }
+
+ /* --------------------------- Navbar ---------------------------- */
 
     .col-xs-hidden{
         display:none;
@@ -465,6 +507,7 @@ nav.fixed {
         background: var(--darkBodyP);
         width: 100%;
         height: 100vh;
+        min-height:500px;
         /* right: 0; */
         transition: all .25s;
         box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
@@ -492,29 +535,31 @@ nav.fixed {
         transition: all .25s;
 
     }
+
+
+
+
+   /* ---------------Footer--------------- */
+
+   #footer{
+    background-size:cover;
+    }
+
+
 }
 
 
 /* Tablets y phablets */
 @media only screen and (min-width: 576px) and (max-width: 767px){
 
+
 }
 
 /*Celulares*/
 @media only screen and (max-width: 575px){
-/* ---------------Inicio--------------- */
-    
-    .ci-1{
-        background-position: 30% 40%;
-        background-size:170%;
-    }
-    .ci-2{
-        background-position: 90% 10%;
-        background-size:230%;
-    }
-    .ci-3{
-        background-position: center;
-        background-size:230%;
+/* ---------------General--------------- */
+    p{
+        font-size:14px;
     }
 
 }
@@ -525,22 +570,26 @@ nav.fixed {
 
     .ci-1{
         background-position: 10% 60%;
-        background-size:190%;
+        background-size:cover;
     }
     .ci-2{
-        background-position: 90% 10%;
-        background-size:250%;
+        /* background-position: 90% 10%; */
+        background-size:cover;
     }
     .ci-3{
         background-position: center;
-        background-size:260%;
+        background-size:cover;
+    }
+
+    .text-carousel{
+        width:80vw;    
     }
 
 
 /* ---------------Footer--------------- */
 
     #footer{
-        background-size:450%;
+        background-size:cover;
     }
 
 }
