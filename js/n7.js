@@ -70,3 +70,7 @@ const activarItemsMenu = (tamanoDePantalla)=>{
         itemContacto.classList.remove("active-item");
     }
 }
+
+
+let altura = screen.height;
+let ancho = screen.width;

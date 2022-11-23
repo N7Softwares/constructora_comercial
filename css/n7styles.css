@@ -312,15 +312,27 @@ nav.fixed {
     margin-bottom:10px;
     /* height:350px; */
     padding:1px 0;
-    /* border:1px solid #000; */
+    /* border:1px solid var(--bs-secondary); */
     background:#e8a900;
+    border-radius:10px;
+    overflow:hidden;        /*Para que el contorno este por encima del contenido*/
 
 }
 
 .img-prod{
     height:350px;
-    background:var(--yellowMostaza);
+    /* background:var(--yellowMostaza); */
     /* border:1px solid var(--bs-dark); */
+    padding:0;
+    
+}
+
+.prod-1{
+    background:url(../images/pro2.png);
+    background-size: cover;
+    height:100%;   
+    width:100%;   
+    /* border:1px solid #fff; */
 }
 
 .desc-prod{
@@ -378,13 +390,23 @@ nav.fixed {
     flex-direction:column;
     align-items:center;
     justify-content:space-around;
+    /* height:100%; */
 
 }
 .mapaJS h4{
     color:var(--bs-light);
 }
+.desc-mapaJS{
+    padding:12px 6px;   /*padding para que el efecto glass de los mapas sean del mismo alto*/
+}
+.desc-mapaJS>p{
+    color:var(--bs-light) !important;
+    text-align:justify;
+}
 
-
+#paraguay{
+    margin-bottom:12px;
+}
 
 /* -------------------------------- Seccion de Contacto -------------------------------------- */
 
@@ -404,6 +426,21 @@ nav.fixed {
 
 
 /* -------------------------------- Seccion de Responsive -------------------------------------- */
+
+/* @media all and (orientation:landscape) {
+	.nav-menu ul{
+        width: 100%;
+        height: 100vh;
+    }
+    .nav-menu ul li{
+        padding: 5px;
+        
+        margin: 0;
+        font-size:1.3rem;
+
+
+    }
+} */
 
 /* Escritorio extra grande */
 @media only screen and (min-width: 1200px){
