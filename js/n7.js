@@ -10,7 +10,7 @@ addEventListener("scroll",()=>{
     
     //scroll para que el menu se fije en el top de la pantalla
     
-    const heightScreen = 600;
+    const heightScreen = 550;
     let pixel = window.scrollY;
 
     if(pixel>heightScreen){
@@ -71,6 +71,25 @@ const activarItemsMenu = (tamanoDePantalla)=>{
     }
 }
 
+// ----------------------- Navbar para que cuando el celular este en horizontal ---------------------------
 
-let altura = screen.height;
-let ancho = screen.width;
+let altura;
+let ancho;  
+const lis = document.querySelectorAll(".ul-li");
+
+window.addEventListener("orientationchange", ()=> {
+    altura = screen.height;
+    ancho = screen.width;    
+    // console.log(ancho, altura);
+        lis.forEach(li=>{
+            if(ancho > altura){
+            // console.log("El celular esta en horizontal");
+                li.style.padding = ".5rem";
+            }else{
+                // console.log("El celular esta en vertical");
+                li.style.padding = "2rem";
+
+            }
+        });
+    
+});
