@@ -83,11 +83,17 @@ window.addEventListener("orientationchange", ()=> {
     // console.log(ancho, altura);
         lis.forEach(li=>{
             if(ancho > altura){
-            // console.log("El celular esta en horizontal");
-                li.style.padding = ".5rem";
+                // console.log("El celular esta en horizontal");
+                // li.style.padding = ".5rem";
+                // console.log(li);
+                li.classList.add("ul-li-hrztl");
             }else{
                 // console.log("El celular esta en vertical");
-                li.style.padding = "2rem";
+                // li.style.padding = "2rem";
+                if(li.className="ul-li-hrztl"){
+                    li.classList.remove("ul-li-hrztl");
+                    // console.log(lis[0]);
+                }
 
             }
         });

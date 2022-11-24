@@ -636,6 +636,9 @@ nav.fixed {
         /* border-top:1px solid var(--bs-secondary);  */
 
     }
+    .ul-li-hrztl{
+        padding: .5rem !important;
+    }
     /* .nav-menu ul li:last-child{
         background: none;
         padding: 1rem;
@@ -661,7 +664,11 @@ nav.fixed {
 
 /* Tablets y phablets */
 @media only screen and (min-width: 576px) and (max-width: 767px){
-
+/* ---------------Navbar--------------- */
+    
+    /* .ul-li-hrztl{
+        padding: 1rem !important;
+    } */
 
 }
 
@@ -671,6 +678,13 @@ nav.fixed {
     p{
         font-size:14px;
     }
+    
+/* ---------------Navbar--------------- */
+    
+    /* .ul-li-hrztl{
+        padding: .5rem !important;
+    } */
+
 
     /* --------------------------- Productos ---------------------------- */
     /* #productos{
