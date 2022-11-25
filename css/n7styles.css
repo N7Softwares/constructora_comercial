@@ -39,7 +39,7 @@ body{
 }
 
 
-/* --------------------------------Inicio-------------------------------------- */
+/* -------------------------------- Modal -------------------------------------- */
 
 .modal-content{
     background-color:var(--darkBodyP);
@@ -54,7 +54,7 @@ body{
 /* .btn-close{
     fill:var(--bs-light) !important;
 } */
-/* --------------------------------Inicio-------------------------------------- */
+/* -------------------------------- Inicio -------------------------------------- */
 
 /* .carousel-item{
     height:600px;
@@ -197,6 +197,10 @@ body{
     background:#151515;
 }
 
+.lis-top{
+    display:none;
+}
+
 nav{
     background-color: var(--darkBodyP);
     /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"); */
@@ -223,6 +227,7 @@ nav{
 .nav-menu li{
     margin-right: 4rem;
     list-style:none;
+    /* border:1px solid #fff; */
 }
 
 .nav-menu li:hover a{
@@ -607,7 +612,31 @@ nav.fixed {
     .col-xs-hidden{
         display:none;
     }
-
+    .lis-top{
+        width:300px;
+        display:flex;
+        justify-content: space-around;
+        /* border:1px solid #fff; */
+    }
+    .lis-top span{
+        color:var(--bs-secondary);
+        font-size: 1.5rem;
+        transition: color .8s;
+        /* font-weight:100 !important; */
+    }
+    .lis-top span:hover{
+        color:var(--bs-warning);
+        transition: color .8s;
+    }
+    /* .lis-top i{
+        color:var(--bs-light);
+        font-size: 1.5rem;
+        transition: color .8s;
+    }
+    .lis-top i:hover{
+        color:var(--bs-warning);
+        transition: color .8s;
+    } */
     nav{
         height:60px;
     }
@@ -615,6 +644,7 @@ nav.fixed {
         display: block;
     }
     .menu-icon{
+        /* width:50%; */
         display: block;
         /* position: fixed; */
         /* top: 10px; */
@@ -704,7 +734,9 @@ nav.fixed {
     /* .ul-li-hrztl{
         padding: .5rem !important;
     } */
-
+    .lis-top{
+        width:200px;
+    }
 
     /* --------------------------- Productos ---------------------------- */
     /* #productos{
@@ -732,6 +764,11 @@ nav.fixed {
 
 /*Celulares angostos*/
 @media only screen and (max-width:365px){
+
+    .lis-top{
+        width:200px;
+    }
+
 /* ---------------Inicio--------------- */
 
     .ci-1{

@@ -57,22 +57,12 @@
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
          <div class="modal-dialog modal-dialog-centered">
          <div class="modal-content border border-secondary">
-            <div class="modal-header border-bottom border-secondary">
-               <h3 class="modal-title fs-5 text-light" id="exampleModalLabel">Horarios</h3>
-               <button type="button" class="bg-light btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-header border-bottom border-secondary" id="modal-header">
+               
             </div>
             <div class="modal-body text-light">
-               <div class="container-fluid ">
-                  <div class="row">
-                     <div class="col-6">
-                     <p>Lunes a Viernes:</p>
-                     <p>Sabados:</p>
-                     </div>
-                     <div class="col-6">
-                        <p>9:00hs a 18:30hs</p>
-                        <p>9:00hs a 17:00hs</p>
-                     </div>
-                  </div>
+               <div class="container-fluid " id="modal-body">
+                  
                </div>
             </div>
             <!-- <div class="modal-footer">
@@ -94,7 +84,7 @@
                         <div class="gem-contacts-item gem-contacts-phone">
                            <ul>
                               <li>
-                                 <a href="#">
+                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="0" data-bs-target="#exampleModal">
                                     <span class="fa fa-whatsapp"></span>
                                     +54 3704 083522
                                  </a>
@@ -106,7 +96,7 @@
                                  </a>
                               </li>
                               <li>
-                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="0" data-bs-target="#exampleModal">
+                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="2" data-bs-target="#exampleModal">
                                  <span class="fa fa-clock-o"></span>
                                     Lun - Vier, 7:30 - 18:30
                                  </a>
@@ -130,22 +120,43 @@
             </div>
       </div>
       <nav id="menu">
-         <div class="logo-header">
-             <a href=""><img src="" alt=""></a>
+         <!-- <div class="row w-100 border border-primary"> -->
+            <!-- <div class="col-6 col-lg-1 col-md-1 border"> -->
+               <div class="logo-header">
+                  <!-- <a href=""><img src="" alt=""></a> -->
+                  <div class="lis-top">
+                     <a href="#" data-bs-toggle="modal" class="modal-btn" value="0" title="Contacto" data-bs-target="#exampleModal">
+                        <span class="fa fa-whatsapp"></span>
+                     </a>
+                     <a href="#" data-bs-toggle="modal" class="modal-btn" value="1" tittle="Correos" data-bs-target="#exampleModal">
+                        <span class="fa fa-envelope"></span>
+                     </a>
+                     <a href="#" data-bs-toggle="modal" class="modal-btn" value="2" tittle="Horarios" data-bs-target="#exampleModal">
+                        <span class="fa fa-clock-o"></span>
+                     </a>  
+                     <a href="#" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a> 
+                 </div>
+               </div>
+            </div>
+            <!-- <div class="col-6 col-lg-11 col-md-11 border"> -->
+               <div class="nav-menu">
+            
+                  <input type="checkbox" id="check">    
+                  <label for="check" class="checkbtn">
+                      <i class="menu-icon"><img src="./images/menu.svg" alt=""></i>
+                    </label>
+                  <ul>
+                      <li class="ul-li"><a href="#" id="itemInicio">INICIO</a></li>
+                      <li class="ul-li"><a href="#nosotros" id="itemNosotros">NOSOTROS</a></li>
+                      <li class="ul-li"><a href="#productos" id="itemProductos">PRODUCTOS</a></li>
+                      <li class="ul-li"><a href="#alcance" id="itemAlcance">ALCANCE</a></li>
+                      <li class="ul-li"><a href="#contacto" id="itemContacto">CONTACTO</a></li>
+                  </ul>
+              </div>
+            <!-- </div> -->
          </div>
-         <div class="nav-menu">
-             <input type="checkbox" id="check">    
-             <label for="check" class="checkbtn">
-                 <i class="menu-icon"><img src="./images/menu.svg" alt=""></i>
-               </label>
-             <ul>
-                 <li class="ul-li"><a href="#" id="itemInicio">INICIO</a></li>
-                 <li class="ul-li"><a href="#nosotros" id="itemNosotros">NOSOTROS</a></li>
-                 <li class="ul-li"><a href="#productos" id="itemProductos">PRODUCTOS</a></li>
-                 <li class="ul-li"><a href="#alcance" id="itemAlcance">ALCANCE</a></li>
-                 <li class="ul-li"><a href="#contacto" id="itemContacto">CONTACTO</a></li>
-             </ul>
-         </div>
+         
+         
      </nav>    
 <!---------------------------------------------------- Inicio ---------------------------------------------------->
 
@@ -457,7 +468,7 @@
 
       <div id="alcance" class="section section-alcance">
          <div class="section-title ">
-            <h3 class="text-light">Ventas con Frecuencia en:</h3>
+            <h3 class="text-light">Ventas con Frecuencia en</h3>
          </div>
             
          <div class="container contenedor-mapasJs rounded d-flex align-items-center justify-content-center">
