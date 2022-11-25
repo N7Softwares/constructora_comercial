@@ -39,7 +39,21 @@ body{
 }
 
 
+/* --------------------------------Inicio-------------------------------------- */
 
+.modal-content{
+    background-color:var(--darkBodyP);
+}
+/* .modal-body p, h3{
+    color:var(--bg-light);
+} */
+
+/* .modal-content-color p,h3{
+    color:var(--bg-light);
+} */
+/* .btn-close{
+    fill:var(--bs-light) !important;
+} */
 /* --------------------------------Inicio-------------------------------------- */
 
 /* .carousel-item{

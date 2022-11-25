@@ -6,6 +6,16 @@ const itemProductos = document.getElementById("itemProductos");
 const itemAlcance = document.getElementById("itemAlcance");
 const itemContacto = document.getElementById("itemContacto");
 
+// ---------------------------- NavBar Top ----------------------------
+const btnsModal = document.querySelectorAll(".modal-btn");
+
+    // console.log(btnsModal.attributes[3].value);
+    btnsModal.forEach(btn=>{
+        btn.addEventListener("click",()=>{
+            console.log(btn.attributes[3].value);
+        });
+    });
+
 addEventListener("scroll",()=>{
     
     //scroll para que el menu se fije en el top de la pantalla
