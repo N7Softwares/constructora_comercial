@@ -679,6 +679,7 @@ div#services .serv .service-inform-text p {
 }
 .no-padding-bottom {
     padding-bottom: 0;
+    padding-top: 0;
 }
 .serv:hover div.serv-blog-cont,
 .serv:focus div.serv-blog-cont {
