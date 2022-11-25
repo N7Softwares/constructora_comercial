@@ -6,6 +6,76 @@ const itemProductos = document.getElementById("itemProductos");
 const itemAlcance = document.getElementById("itemAlcance");
 const itemContacto = document.getElementById("itemContacto");
 
+// ---------------------------- NavBar Top ----------------------------
+const btnsModal = document.querySelectorAll(".modal-btn");
+let infoModales = [
+    {
+        titulo:`Numeros de Telefono`,
+        descripcion:`
+        <div class="row">
+            <div class="col-6">
+                <p>WhatsApp:</p>
+                <p>Telefono Fijo:</p>
+            </div>
+            <div class="col-6">
+           <p><a class="text-warning" href="https://wa.me/5493704073147" target="_blank">+54 3704 072343</a></p>
+            <p><a class="text-warning" href="https://wa.me/3705077825" target="_blank">+54 1102 293812</a></p>
+            </div>
+        </div>
+            `
+    },
+    {
+        titulo:`Correos Electronicos`,
+        descripcion:`
+        <div class="row">
+            <div class="col-4 col-lg-6 col-md-6 col-sm-6">
+                <p>Consultas:</p>
+                <p>Correo Profesional:</p>
+            </div>
+            <div class="col-8 col-lg-6 col-md-6 col-sm-6">
+                <p>consulta@construcom.com</p>
+                <p>oficial@construcom.com</p>
+            </div>
+        </div>
+        `
+    },
+    {
+        titulo:"Horarios",
+        descripcion:`<div class="row">
+        <div class="col-6">
+        <p>Lunes a Viernes:</p>
+        <p>Sabados:</p>
+        </div>
+        <div class="col-6">
+           <p>9:00hs a 18:30hs</p>
+           <p>9:00hs a 17:00hs</p>
+        </div>
+     </div>`
+    }
+    ];
+
+
+// console.log(btnsModal.attributes[3].value);
+btnsModal.forEach(btn=>{
+    const modalHeader=document.getElementById("modal-header");
+    const modalBody=document.getElementById("modal-body");
+
+    btn.addEventListener("click",()=>{
+        // console.log(btn.attributes[3].value);
+        // console.log(infoModales[btn.attributes[3].value].titulo);
+        // console.log(infoModales[btn.attributes[3].value].descripcion);
+
+        modalHeader.innerHTML = `
+        <h3 class="modal-title fs-5 text-light" id="exampleModalLabel">${infoModales[btn.attributes[3].value].titulo}</h3>
+        <button type="button" class="bg-light btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        `;
+        modalBody.innerHTML = infoModales[btn.attributes[3].value].descripcion;
+
+    });
+});
+
+
+//--------- Efectos al hacer scroll ----------
 addEventListener("scroll",()=>{
     
     //scroll para que el menu se fije en el top de la pantalla
