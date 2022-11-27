@@ -164,7 +164,7 @@ body{
     /* background-size:100%; */
 }
 .ci-3{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/construccion_site.jpg);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/construccion_site.webp);
     background-size: cover;
     background-position:0 50%;
 }
