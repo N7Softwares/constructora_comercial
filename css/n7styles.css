@@ -139,31 +139,10 @@ body{
     /* background-size:100%; */
 }
 .ci-3{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/tools.webp);
-    /* background-size: auto; */
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/construccion_site.jpg);
+    background-size: cover;
+    background-position:0 50%;
 }
-
-/* -----------------Seccion de mediaqueries----------------- */
-/*------- Desktop -------*/
-
-/* @media screen and (min-width: 1023px){
-    .ci-1{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
-        background-position: left;
-    }
-
-} */
-
-/*------- Tablets -------*/
-/* @media screen and (min-width:768px) and (max-width:1022px) {
-
-    .ci-1{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img.webp);
-        background-size:120%;
-    }
-   
-
-} */
 
 /* --------------------------------Navbar-------------------------------------- */
 
@@ -181,6 +160,15 @@ body{
 }
 .gem-contacts-item.gem-contacts-phone span{
     font-size:20px;
+    transition:color .4s !important;
+
+}
+
+.gem-contacts-item.gem-contacts-phone a:hover i{
+    transition:color .3s !important;
+}
+.gem-contacts-item.gem-contacts-phone a:hover span{
+    transition:color .3s !important;
 }
 
 .socials .inline-inside{
@@ -366,7 +354,8 @@ nav.fixed {
     width:100%;   
 }
 .prod-2{
-    background:url(../images/pro2.webp);
+    background:url(../images/slider/construccion_site2.webp);
+    /* background:url(../images/slider/asesoramiento_obras.webp); */
     background-size: cover;
     background-position:center;
     height:100%;   
@@ -511,16 +500,13 @@ nav.fixed {
     /* --------------------------- Productos ---------------------------- */
 
     .prod-1{
-        background:url(../images/materiales.jpg);
         background-size: cover;
     }
     .prod-2{
-        background:url(../images/pro2.png);
         background-size: cover;
         background-position:60% 0;
     }
     .prod-3{
-        background:url(../images/truck.jpg);
         background-size: cover;
         background-position: 20% 0;
     }
@@ -563,6 +549,12 @@ nav.fixed {
 
 /* Escritorio pequeño / tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px){
+
+/* --------------------------- Navbar ---------------------------- */
+.gem-contacts-item.gem-contacts-phone i{
+    display:none;
+}
+
 /* --------------------------- Inicio ---------------------------- */
 
     .ci-1{
@@ -584,7 +576,6 @@ nav.fixed {
         background-size: cover;
     } */
     .prod-2{
-        background:url(../images/pro2.png);
         background-size: cover;
         background-position:70% 0;
     }
@@ -609,7 +600,9 @@ nav.fixed {
     }
 
  /* --------------------------- Navbar ---------------------------- */
-
+    .gem-contacts-item.gem-contacts-phone i{
+        display:none;
+    }
     .col-xs-hidden{
         display:none;
     }
@@ -679,12 +672,9 @@ nav.fixed {
         padding: 2rem;
         display: flex;
         justify-content: center;
-        
-        /* width:100%; */
         margin: 0;
         font-size:1.3rem;
-        /* border:1px solid var(--bs-secondary); */
-        /* border-top:1px solid var(--bs-secondary);  */
+      
 
     }
     .ul-li-hrztl{
