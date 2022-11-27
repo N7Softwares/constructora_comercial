@@ -5,6 +5,9 @@
 /////////////////////////////////////
 */
 
+/* -------------------------------- General -------------------------------------- */
+
+
 *{
     padding: 0;
     margin: 0;
@@ -14,9 +17,22 @@ body{
     max-width: 100% !important;
     overflow-x: hidden !important;
     font-family: 'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
-                                                
+    scroll-behavior: smooth;                                
 }
+/* @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+  } */
 
+body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: 'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
+    scroll-behavior: smooth;                                
+}
 /* Variables */
 :root{
     --bs-primary: #0d6efd;
@@ -38,6 +54,15 @@ body{
     --yellowMostaza: #e8a900;
 }
 
+
+
+/* .fadein {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fadein.lazyloaded {
+    opacity: 1;
+  } */
 
 /* -------------------------------- Modal -------------------------------------- */
 
@@ -453,13 +478,19 @@ nav.fixed {
 .dmtop{
     z-index:3;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-
+    /* transition: background-color .4s ease; */
 }
-
+/* .dmtop:hover{
+    transition: background-color .4s ease;
+    background-color:var(--bs-warning);
+} */
 #footer{
     background-image:url(../images/footer-img.webp);
 }
 
+.footer-link{
+    color:var(--bs-light);
+}
 
 
 
