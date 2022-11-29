@@ -74,6 +74,17 @@ btnsModal.forEach(btn=>{
     });
 });
 
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 1) {
+        jQuery('.dmtop').css({
+            bottom: "75px"
+        });
+    } else {
+        jQuery('.dmtop').css({
+            bottom: "-100px"
+        });
+    }
+});
 
 //--------- Efectos al hacer scroll ----------
 addEventListener("scroll",()=>{
