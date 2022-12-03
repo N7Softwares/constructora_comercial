@@ -2,7 +2,7 @@ $(document).ready(function () {
   var mainOwl = $('.owl-carousel.main-carousel');
 	mainOwl.owlCarousel({
 		autoplay: true,
-		smartSpeed: 2500,
+		smartSpeed: 1000,
 		autoplayTimeout: 20000,
 		loop: true,
 		nav: false,
