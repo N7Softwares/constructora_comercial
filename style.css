@@ -2246,7 +2246,7 @@ div.owl-buttons {
     height: 100%;
 }
 /* Diseño responsivo */
-@media (max-width: 991px){
+@media (max-width: 1200px){
     .contactoSeccion{
         background: #fff;
     }
