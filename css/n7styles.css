@@ -32,13 +32,14 @@ body{
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
+    --bs-warning:#ffc107;
+    --bs-danger:#dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
     
     --bs-gray-500: #adb5bd;
     --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
     --z1:#232741;
     --z2:#2c2e43;
     --darkBodyP:#181818;
@@ -47,6 +48,18 @@ body{
     --yellowMostaza: #e8a900;
 }
 
+
+
+.text-gray{
+    color:var(--bs-gray-500);
+}
+/* .fadein {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fadein.lazyloaded {
+    opacity: 1;
+  } */
 
 
 /* -------------------------------- Modal -------------------------------------- */
@@ -347,7 +360,7 @@ nav.fixed {
 }
 
 .desc-prod p{
-    color:var(--bs-secondary);
+    color:var(--bs-gray-500);
     font-weight:400;
     text-align: justify;
 }
@@ -395,9 +408,17 @@ nav.fixed {
 
 /* -------------------------------- Seccion de Contacto -------------------------------------- */
 
+/* ---Estilos Temporales---- */
 
+.contact_form .form-control{
+    border-bottom: 2px solid var(--bs-secondary);
+}
+input::placeholder,textarea::placeholder{
+    font-family:monospace;
+    color:var(--bs-secondary) !important;
+    /* transition:color 0.3s; */
 
-
+}
 
 /* -------------------------------- Seccion de Footer -------------------------------------- */
 
@@ -614,6 +635,12 @@ nav.fixed {
    #footer{
     background-size:cover;
     }
+
+
+
+    /* a:hover{
+        background-color:var(--bs-danger) !important;
+    } */
 
 
 }
