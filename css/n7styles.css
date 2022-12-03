@@ -16,7 +16,7 @@
 body{
     max-width: 100% !important;
     overflow-x: hidden !important;
-    font-family: sans-serif;
+    font-family:'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
     scroll-behavior: smooth;          
     background-color:var(--bg-whiteSmooth);                      
 }
