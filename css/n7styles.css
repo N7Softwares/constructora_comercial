@@ -16,16 +16,13 @@
 body{
     max-width: 100% !important;
     overflow-x: hidden !important;
-    font-family: 'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
-    scroll-behavior: smooth;                                
+    font-family: sans-serif;
+    scroll-behavior: smooth;          
+    background-color:var(--bg-whiteSmooth);                      
 }
-
-body{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    font-family: 'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
-    scroll-behavior: smooth;                                
-}
+#contacto{
+    background-color:var(--bg-whiteSmooth);
+}                       
 /* Variables */
 :root{
     --bs-primary: #0d6efd;
@@ -46,6 +43,8 @@ body{
     --darkPretty: #333;
     --darkPretty2:#222;
     --yellowMostaza: #e8a900;
+    --bg-whiteBlue:#F0F0F0;
+    --bg-whiteSmooth:#FAFAFA;
 }
 
 
@@ -420,6 +419,7 @@ nav.fixed {
 
 .contact_form .form-control{
     border-bottom: 2px solid var(--bs-secondary);
+    background-color:transparent;
 }
 input::placeholder,textarea::placeholder{
     font-family:monospace;
