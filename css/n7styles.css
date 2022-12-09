@@ -92,7 +92,7 @@ body{
 
 }
 
-.text-carousel h1{
+.text-carousel h1, .text-carousel span{
     font-size:calc(1.575rem + 3.9vw);
     font-weight: 700 !important;
     line-height: 1.2;
@@ -167,6 +167,8 @@ body{
 .gem-contacts-item.gem-contacts-phone a:hover span{
     transition:color .3s !important;
 }
+
+
 
 .socials .inline-inside{
     display:flex;
@@ -516,7 +518,9 @@ input::placeholder,textarea::placeholder{
     .gem-contacts-item.gem-contacts-phone i{
         display:none;
     }
-
+    .info-th{
+        font-size:.8rem;
+    }
 /* --------------------------- Inicio ---------------------------- */
 
     .ci-1{
