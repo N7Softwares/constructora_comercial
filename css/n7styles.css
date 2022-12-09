@@ -92,14 +92,15 @@ body{
 
 }
 
-.text-carousel h1, .text-carousel span{
+.text-carousel h1, .text-carousel h2{
     font-size:calc(1.575rem + 3.9vw);
     font-weight: 700 !important;
     line-height: 1.2;
     color:var(--bs-light);
+    /* padding:0; */
 }
-.text-carousel h4{
-    font-size:calc(.575rem + 1.9vw);
+.text-carousel h3, .h2-textcarousel{
+    font-size:calc(.575rem + 1.9vw) !important;
     font-weight: 700 !important;
     /* line-height: 1.2; */
     color:var(--bs-light);
@@ -155,7 +156,7 @@ body{
     display:flex;
     justify-content: space-between;
 }
-.gem-contacts-item.gem-contacts-phone span{
+.gem-contacts-item.gem-contacts-phone span:first-child{
     font-size:20px;
     transition:color .4s !important;
 

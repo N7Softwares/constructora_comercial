@@ -28,10 +28,10 @@ let infoModales = [
         titulo:`Correos Electronicos`,
         descripcion:`
         <div class="row">
-            <div class="col-4 col-lg-6 col-md-6 col-sm-6">
+            <div class="col-3 col-lg-5 col-md-5 col-sm-5">
                 <p>Correo Profesional:</p>
             </div>
-            <div class="col-8 col-lg-6 col-md-6 col-sm-6">
+            <div class="col-9 col-lg-7 col-md-7 col-sm-7">
                 <p>comercialcontructora@gmail.com</p>
             </div>
         </div>
