@@ -103,7 +103,7 @@ body.building_version .first-section h2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
-h2::after {
+/* h2::after {
     width: 65px;
     height: 5px;
     content: "";
@@ -111,7 +111,7 @@ h2::after {
     position: relative;
     display: block;
     margin: 10px 0;
-}
+} */
 h5 {
     font-size: 18px;
     line-height: 30px !important;
@@ -119,9 +119,9 @@ h5 {
     font-weight: 300;
     letter-spacing: 1px;
 }
-h2 {
+/* h2 {
     padding: 45px 0 0;
-}
+} */
 .read-more {
     background: #e8a900;
     color: #111;
@@ -679,7 +679,6 @@ div#services .serv .service-inform-text p {
 }
 .no-padding-bottom {
     padding-bottom: 0;
-    padding-top: 0;
 }
 .serv:hover div.serv-blog-cont,
 .serv:focus div.serv-blog-cont {
