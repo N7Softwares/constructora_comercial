@@ -436,6 +436,11 @@ input::placeholder,textarea::placeholder{
     /* transition:color 0.3s; */
 
 }
+.button-form{
+    padding: 16px 32px;
+}
+
+
 
 /* -------------------------------- Seccion de Footer -------------------------------------- */
 
@@ -458,6 +463,7 @@ input::placeholder,textarea::placeholder{
 
 
 /* -------------------------------- Seccion de Responsive -------------------------------------- */
+
 
 /* Escritorio extra grande */
 @media only screen and (min-width: 1200px){
@@ -747,6 +753,7 @@ input::placeholder,textarea::placeholder{
     }
 
 
+
 /* ---------------Footer--------------- */
 
     #footer{
@@ -754,3 +761,6 @@ input::placeholder,textarea::placeholder{
     }
 
 }
+
+
+

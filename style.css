@@ -479,7 +479,7 @@ li.social-links a {
 .section-title {
     display: block;
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .section-title p {
     color: #999;
@@ -2086,3 +2086,6 @@ div.owl-buttons {
   .owl-theme .owl-controls .owl-buttons .owl-prev { left: 0; margin-left: -8%; }
   
   .owl-theme .owl-controls .owl-buttons .owl-next { right: 0; margin-right: -8%; }
+
+
+  
