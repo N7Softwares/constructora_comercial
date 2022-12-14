@@ -13,22 +13,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    font-family:'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
-    scroll-behavior: smooth;          
-    background-color:var(--bg-whiteSmooth);  
-    /* background:url(../images/cc.webp);
-    background-attachment: fixed;
-    background-size:cover; */
-}
-#contacto{
-    background-color:var(--bg-whiteSmooth);
-    /* background:url(../images/cc.webp);
-    background-attachment: fixed;
-    background-size:cover; */
-}                       
+
 /* Variables */
 :root{
     --bs-primary: #0d6efd;
@@ -54,6 +39,26 @@ body{
 }
 
 
+body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family:'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
+    scroll-behavior: smooth;          
+    /* background-color:var(--bg-whiteSmooth);   */
+    background: rgb(250,250,250);
+    background: linear-gradient(90deg, rgba(250,250,250,1) 48%, rgba(240,240,240,1) 77%);
+    /* background:url(../images/cc.webp);
+    background-attachment: fixed;
+    background-size:cover; */
+}
+#contacto{
+    background-color:var(--bg-whiteSmooth);
+    background: rgb(250,250,250);
+    background: linear-gradient(90deg, rgba(250,250,250,1) 48%, rgba(240,240,240,1) 77%);
+    /* background:url(../images/cc.webp);
+    background-attachment: fixed;
+    background-size:cover; */
+}                       
 
 .text-gray{
     color:var(--bs-gray-500);
