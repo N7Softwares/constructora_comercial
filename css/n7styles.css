@@ -36,6 +36,10 @@
     --yellowMostaza: #e8a900;
     --bg-whiteBlue:#F0F0F0;
     --bg-whiteSmooth:#FAFAFA;
+    --azulWhite: #f2f6fc;
+    --azulLight: #f6f8fc;
+    --azulLite: #eaf1fb;
+    --aL: #f5f6f7
 }
 
 
@@ -44,17 +48,17 @@ body{
     overflow-x: hidden !important;
     font-family:'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
     scroll-behavior: smooth;          
-    /* background-color:var(--bg-whiteSmooth);   */
-    background: rgb(250,250,250);
-background: linear-gradient(90deg, rgba(250,250,250,1) 37%, rgba(234,241,251,1) 96%);
+    background-color:var(--bg-whiteSmooth);  
+    /* background: rgb(250,250,250);
+background: linear-gradient(90deg, rgba(250,250,250,1) 37%, rgba(234,241,251,1) 96%); */
     /* background:url(../images/cc.webp);
     background-attachment: fixed;
     background-size:cover; */
 }
 #contacto{
     background-color:var(--bg-whiteSmooth);
-    background: rgb(250,250,250);
-background: linear-gradient(90deg, rgba(250,250,250,1) 37%, rgba(234,241,251,1) 96%);
+    /* background: rgb(250,250,250);
+background: linear-gradient(90deg, rgba(250,250,250,1) 37%, rgba(234,241,251,1) 96%); */
     /* background:url(../images/cc.webp);
     background-attachment: fixed;
     background-size:cover; */
