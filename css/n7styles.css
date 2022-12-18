@@ -433,9 +433,7 @@ nav.fixed {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--bs-warning);
-    border: 5px solid var(--bs-warning);
-    color: #fff;
+    color: var(--bs-warning);
     margin-left: -20px;
     margin-right: 10px;
     transform: scale(1.2);
