@@ -443,6 +443,7 @@ nav.fixed {
     border-radius: 5px;
     box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+
 }
  
 .circle-icon {
@@ -467,12 +468,16 @@ nav.fixed {
     color: rgb(0, 0, 0);
     background-color: rgb(250,250,250);
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+    box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+
 }
 .accordion-button:not(.collapsed){
     border: 20px!important;
     color: rgb(0, 0, 0);
     background-color: rgb(250,250,250);
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+    box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+
 }
 .text-faq{
     font-size: 20px;
@@ -482,6 +487,8 @@ nav.fixed {
     background-image: var(--bs-accordion-btn-active-icon);
     transform: var(--bs-accordion-btn-icon-transform);
     color:rgb(250,250,250) !important;
+    box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+
 }
 
 .accordion {
