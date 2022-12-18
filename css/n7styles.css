@@ -435,7 +435,7 @@ nav.fixed {
 .accordion-body {
     margin-top: 15px;
     padding: 25px;
-    background: #fff;
+    background: rgb(250,250,250);
     border-radius: 5px;
     box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
@@ -451,7 +451,7 @@ nav.fixed {
     background: var(--bs-warning);
     border: 5px solid var(--bs-warning);
     color: #fff;
-    margin-left: -20px;
+    margin-left: -10px;
     margin-right: 10px;
     transform: scale(1.2);
 }
@@ -460,14 +460,14 @@ nav.fixed {
 }
 .accordion-button{
     border: 20px!important;
-    color: #fff;
-    background-color: var(--darkBodyP);
+    color: rgb(0, 0, 0);
+    background-color: rgb(250,250,250);
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
 }
 .accordion-button:not(.collapsed){
     border: 20px!important;
-    color: #fff;
-    background-color: var(--darkBodyP);
+    color: rgb(0, 0, 0);
+    background-color: rgb(250,250,250);
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
 }
 .text-faq{
@@ -477,7 +477,7 @@ nav.fixed {
 .accordion-button:not(.collapsed)::after {
     background-image: var(--bs-accordion-btn-active-icon);
     transform: var(--bs-accordion-btn-icon-transform);
-    color:#fff !important;
+    color:rgb(250,250,250) !important;
 }
 
 .accordion {
