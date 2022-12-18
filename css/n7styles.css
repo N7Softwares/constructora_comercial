@@ -425,6 +425,10 @@ nav.fixed {
 
 /* -------------------------------- Seccion de Preguntas frecuentes -------------------------------------- */
 
+.section-faq{
+    padding-bottom:0;
+}
+
 .accordion-button{
     margin-bottom: 10px;
 }
@@ -470,6 +474,17 @@ nav.fixed {
     font-size: 20px;
 }
 
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+    color:#fff !important;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-border-color: #fdde00;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem#fdde00;
+    --bs-accordion-active-color: #fdde00;
+    }
 /* -------------------------------- Seccion de Contacto -------------------------------------- */
 
 /* ---Estilos Temporales---- */
