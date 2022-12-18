@@ -32,7 +32,7 @@ let infoModales = [
                 <p>Correo Profesional:</p>
             </div>
             <div class="col-9 col-lg-7 col-md-7 col-sm-7">
-                <a href="mailto:comercialcontructora@gmail.com">comercialcontructora@gmail.com</a>
+                <a href="mailto:comercialcontructora@gmail.com" class="text-warning" title="correo" target="_blank">comercialcontructora@gmail.com</a>
             </div>
         </div>
         `
