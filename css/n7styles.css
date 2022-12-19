@@ -13,16 +13,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    font-family:'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
-    scroll-behavior: smooth;          
-    background-color:var(--bg-whiteSmooth);                      
-}
-#contacto{
-    background-color:var(--bg-whiteSmooth);
-}                       
+
 /* Variables */
 :root{
     --bs-primary: #0d6efd;
@@ -45,9 +36,33 @@ body{
     --yellowMostaza: #e8a900;
     --bg-whiteBlue:#F0F0F0;
     --bg-whiteSmooth:#FAFAFA;
+    --azulWhite: #f2f6fc;
+    --azulLight: #f6f8fc;
+    --azulLite: #eaf1fb;
+    --aL: #f5f6f7
 }
 
 
+body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family:'Euclid Circular A', sans-serif !important; /*Nueva fuente de letra*/
+    scroll-behavior: smooth;          
+    background-color:var(--bg-whiteSmooth);  
+    /* background: rgb(250,250,250);
+background: linear-gradient(90deg, rgba(250,250,250,1) 37%, rgba(234,241,251,1) 96%); */
+    /* background:url(../images/cc.webp);
+    background-attachment: fixed;
+    background-size:cover; */
+}
+#contacto{
+    background-color:var(--bg-whiteSmooth);
+    /* background: rgb(250,250,250);
+background: linear-gradient(90deg, rgba(250,250,250,1) 37%, rgba(234,241,251,1) 96%); */
+    /* background:url(../images/cc.webp);
+    background-attachment: fixed;
+    background-size:cover; */
+}                       
 
 .text-gray{
     color:var(--bs-gray-500);
@@ -414,16 +429,21 @@ nav.fixed {
 
 /* -------------------------------- Seccion de Preguntas frecuentes -------------------------------------- */
 
+.section-faq{
+    padding-bottom:0;
+}
+
 .accordion-button{
     margin-bottom: 10px;
 }
 .accordion-body {
     margin-top: 15px;
     padding: 25px;
-    background: #fff;
+    background: rgb(250,250,250);
     border-radius: 5px;
     box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+
 }
  
 .circle-icon {
@@ -434,29 +454,33 @@ nav.fixed {
     justify-content: center;
     align-items: center;
     color: var(--bs-warning);
-    margin-left: -20px;
+    margin-left: -10px;
     margin-right: 10px;
     transform: scale(1.2);
 }
 .accordion-item{
     border: 20px!important;
+    
 }
 .accordion-button{
     border: 20px!important;
-    color: #fff;
-    background-color: var(--darkBodyP);
+    color: rgb(0, 0, 0);
+    background-color: rgb(250,250,250);
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+    box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+
 }
 .accordion-button:not(.collapsed){
     border: 20px!important;
-    color: #fff;
-    background-color: var(--darkBodyP);
+    color: rgb(0, 0, 0);
+    background-color: rgb(250,250,250);
     box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+    box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+
 }
 .text-faq{
     font-size: 20px;
 }
-
 /* -------------------------------- Seccion de Contacto -------------------------------------- */
 
 /* ---Estilos Temporales---- */

@@ -18,8 +18,8 @@ let infoModales = [
                 <p>Telefono Fijo:</p>
             </div>
             <div class="col-6">
-           <p><a class="text-warning" href="https://wa.me/5493704073147" target="_blank">+54 3704 072343</a></p>
-            <p><a class="text-warning" href="https://wa.me/3705077825" target="_blank">+54 1102 293812</a></p>
+           <p><a class="text-warning" href="https://wa.me/5493704569009" target="_blank">+54 (9) 3704 569009</a></p>
+            <p><a class="text-warning" href="https://wa.me/5493704308920" target="_blank">+54 (9) 3704 308920</a></p>
             </div>
         </div>
             `
@@ -32,7 +32,7 @@ let infoModales = [
                 <p>Correo Profesional:</p>
             </div>
             <div class="col-9 col-lg-7 col-md-7 col-sm-7">
-                <p>comercialcontructora@gmail.com</p>
+                <a href="mailto:comercialcontructora@gmail.com">comercialcontructora@gmail.com</a>
             </div>
         </div>
         `
