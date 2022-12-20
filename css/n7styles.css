@@ -545,6 +545,13 @@ input::placeholder,textarea::placeholder{
 
 /* Escritorio grande */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
+
+/* --------------------------- Navbar ---------------------------- */
+
+    .nav-menu li{
+        margin-right: 3rem;
+    }
+
     /* --------------------------- Inicio ---------------------------- */
 
     .ci-1{
@@ -578,6 +585,12 @@ input::placeholder,textarea::placeholder{
         display:none;
     }
     .info-th{
+        font-size:.8rem;
+    }
+    .nav-menu li{
+        margin-right: 2.3rem;
+    }
+    .nav-menu a{
         font-size:.8rem;
     }
 /* --------------------------- Inicio ---------------------------- */
@@ -687,12 +700,12 @@ input::placeholder,textarea::placeholder{
         /* z-index:80 !important; */
     }
     .nav-menu ul li{
-        padding: 2rem;
+        padding: 1.5rem;
         display: flex;
         justify-content: center;
         margin: 0;
         font-size:1.3rem;
-      
+        border:1px solid #fff;
 
     }
     .ul-li-hrztl{
@@ -776,8 +789,17 @@ input::placeholder,textarea::placeholder{
 /*Celulares angostos*/
 @media only screen and (max-width:365px){
 
+    /* --------------------------- Navbar ---------------------------- */
+
     .lis-top{
         width:200px;
+    }
+
+
+    .nav-menu ul li{
+        
+        font-size:1.2rem;
+
     }
 
 /* ---------------Inicio--------------- */
