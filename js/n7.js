@@ -4,6 +4,7 @@ const itemInicio = document.getElementById("itemInicio");
 const itemNosotros= document.getElementById("itemNosotros");
 const itemProductos = document.getElementById("itemProductos");
 const itemAlcance = document.getElementById("itemAlcance");
+const itemFaq = document.getElementById("itemFaq");
 const itemContacto = document.getElementById("itemContacto");
 
 // ---------------------------- NavBar Top ----------------------------
@@ -14,8 +15,8 @@ let infoModales = [
         descripcion:`
         <div class="row">
             <div class="col-6">
-                <p>WhatsApp:</p>
-                <p>Telefono Fijo:</p>
+                <p>WhatsApp Venta:</p>
+                <p>WhatsApp Personal:</p>
             </div>
             <div class="col-6">
            <p><a class="text-warning" href="https://wa.me/5493704569009" target="_blank">+54 (9) 3704 569009</a></p>
@@ -110,6 +111,7 @@ const activarItemsMenu = (tamanoDePantalla)=>{
     const acerca = document.getElementById("nosotros");
     const productos = document.getElementById("productos");
     const alcance = document.getElementById("alcance");
+    const faq = document.getElementById("faq");
     const contacto = document.getElementById("contacto");
 
 
@@ -118,6 +120,7 @@ const activarItemsMenu = (tamanoDePantalla)=>{
     let posicionAcerca=acerca.getBoundingClientRect().top;
     let posicionProductos=productos.getBoundingClientRect().top;
     let posicionAlcance=alcance.getBoundingClientRect().top;
+    let posicionFaq=faq.getBoundingClientRect().top;
     let posicionContacto=contacto.getBoundingClientRect().top;
 
 
@@ -138,10 +141,15 @@ const activarItemsMenu = (tamanoDePantalla)=>{
     }else{
         itemProductos.classList.remove("active-item");
     }
-    if(posicionAlcance<(tamanoDePantalla/3.2) && posicionContacto>(tamanoDePantalla/5)){
+    if(posicionAlcance<(tamanoDePantalla/3) && posicionFaq>(tamanoDePantalla/3.2)){
         itemAlcance.classList.add("active-item");
     }else{
         itemAlcance.classList.remove("active-item");
+    }
+    if(posicionFaq<(tamanoDePantalla/3.2) && posicionContacto>(tamanoDePantalla/5)){
+        itemFaq.classList.add("active-item");
+    }else{
+        itemFaq.classList.remove("active-item");
     }
     if(posicionContacto<(tamanoDePantalla/5)){
         itemContacto.classList.add("active-item");
