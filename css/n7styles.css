@@ -388,6 +388,17 @@ nav.fixed {
     font-weight:400;
     text-align: justify;
 }
+.desc-prod ul{
+    /* border:1px solid white; */
+    padding:0 10px;
+}
+
+.desc-prod ul li{
+    /* list-style: none; */
+    color:var(--bs-gray-500);
+    /* border:1px solid red; */
+
+}
 
 @media only screen and (max-width: 575px){
 
@@ -637,6 +648,12 @@ input::placeholder,textarea::placeholder{
         background-size: cover;
         background-position:70% 0;
     }
+    .desc-prod ul{
+        padding: 5px 0;
+    }
+    .desc-prod ul li{
+        font-size:.9rem;
+    }
 
     /* --------------------------- Alcance ---------------------------- */
 
@@ -747,6 +764,19 @@ input::placeholder,textarea::placeholder{
     .desc-prod, .img-prod, .img-prodX{
         height:400px;
     }
+    .desc-prod ul{
+        padding: 5px 0;
+    }
+    .desc-prod ul li{
+        font-size:.9rem;
+    }
+    .desc-prod-ladr ul, .desc-prod-met ul{
+        padding:0;
+    }
+    .desc-prod-ladr ul li, .desc-prod-met ul li{
+        font-size:.75rem;
+        margin-bottom:2px;
+    }
 
 }
 
@@ -829,6 +859,9 @@ input::placeholder,textarea::placeholder{
     }
     .prod-aridos{
         top:0;
+    }    
+    .desc-prod ul li{
+        font-size:.9rem;
     }
 }
 
@@ -866,6 +899,14 @@ input::placeholder,textarea::placeholder{
         width:80vw;    
     }
 
+/* ---------------Productos--------------- */
+
+    .desc-prod ul{
+        padding: 5px 0;
+    }
+    .desc-prod ul li{
+        font-size:.9rem;
+    }
 
 
 /* ---------------Footer--------------- */
