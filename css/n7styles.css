@@ -128,7 +128,7 @@ body{
 }
 
 .ci-1{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img2.webp);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer.webp);
     background-position: bottom;
 }
 .ci-2{
@@ -808,7 +808,7 @@ input::placeholder,textarea::placeholder{
 
     /* --------------------------- Inicio ---------------------------- */
     .ci-1{
-        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img2_mobil.webp);
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer_mobil.webp);
         background-size:cover;
     }
     .ci-2{
