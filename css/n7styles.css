@@ -779,7 +779,7 @@ input::placeholder,textarea::placeholder{
     
     .prod-aridos{
         position:relative;
-        top:-60px;
+        top:-50px;
     }
 
     .prod-1{
@@ -819,6 +819,12 @@ input::placeholder,textarea::placeholder{
     .ci-3{
         background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos_mobil.webp);
         background-size: cover;
+    }
+
+    /* --------------------------- Productos ---------------------------- */
+
+    .prod-img img{
+        width:100%;
     }
 
 }
