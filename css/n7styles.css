@@ -821,6 +821,12 @@ input::placeholder,textarea::placeholder{
         background-size: cover;
     }
 
+    /* --------------------------- Productos ---------------------------- */
+
+    .prod-img img{
+        width:100%;
+    }
+
 }
 
 /*Celulares angostos*/
