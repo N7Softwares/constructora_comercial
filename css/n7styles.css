@@ -461,7 +461,7 @@ nav.fixed {
     border-radius: 5px;
     box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
-
+    font-size: 18px;
 }
  
 .circle-icon {
@@ -497,7 +497,7 @@ nav.fixed {
 
 }
 .text-faq{
-    font-size: 20px;
+    font-size: 25px;
 }
 /* -------------------------------- Seccion de Contacto -------------------------------------- */
 
