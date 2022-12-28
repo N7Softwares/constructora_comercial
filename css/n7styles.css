@@ -128,17 +128,17 @@ body{
 }
 
 .ci-1{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/slider_img2.webp);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer.webp);
     background-position: bottom;
 }
 .ci-2{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/bricks.webp);
-    background-position: 90% 10%;
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2.webp);
+    background-position: bottom;
+    background-size:cover;
 }
 .ci-3{
-    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/construccion_site.webp);
+    background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos.webp);
     background-size: cover;
-    background-position:0 50%;
 }
 
 /* --------------------------------Navbar-------------------------------------- */
@@ -316,9 +316,33 @@ nav.fixed {
     ;
 }
 
+.col-img{
+    padding:0;
+    overflow:hidden;
+}
+
 .img-prod{
     height:350px;
     padding:0;  
+}
+
+.img-prodX{
+    height:350px;
+    width:100%;
+    padding:0;
+    position:relative;
+    top:-10px;
+    left:0;
+}
+.prod-img{
+    width:100%;
+    height:100%;
+}
+.prod-img img{
+    object-fit:cover;
+    aspect-ratio:1/1;
+    object-position:center;
+    
 }
 
 .prod-1{
@@ -328,7 +352,7 @@ nav.fixed {
     width:100%;   
 }
 .prod-2{
-    background:url(../images/slider/construccion_site2.webp);
+    background:url(../images/slider/albañil.webp);
     background-size: cover;
     background-position:center;
     height:100%;   
@@ -363,6 +387,17 @@ nav.fixed {
     color:var(--bs-gray-500);
     font-weight:400;
     text-align: justify;
+}
+.desc-prod ul{
+    /* border:1px solid white; */
+    padding:0 10px;
+}
+
+.desc-prod ul li{
+    /* list-style: none; */
+    color:var(--bs-gray-500);
+    /* border:1px solid red; */
+
 }
 
 @media only screen and (max-width: 575px){
@@ -613,6 +648,12 @@ input::placeholder,textarea::placeholder{
         background-size: cover;
         background-position:70% 0;
     }
+    .desc-prod ul{
+        padding: 5px 0;
+    }
+    .desc-prod ul li{
+        font-size:.9rem;
+    }
 
     /* --------------------------- Alcance ---------------------------- */
 
@@ -716,8 +757,27 @@ input::placeholder,textarea::placeholder{
 
 /* Tablets y phablets */
 @media only screen and (min-width: 576px) and (max-width: 767px){
-/* ---------------Navbar--------------- */
     
+
+    /* --------------------------- Productos ---------------------------- */
+
+    .desc-prod, .img-prod, .img-prodX{
+        height:400px;
+    }
+    .desc-prod ul{
+        padding: 5px 0;
+    }
+    .desc-prod ul li{
+        font-size:.9rem;
+    }
+    .desc-prod-ladr ul, .desc-prod-met ul{
+        padding:0;
+    }
+    .desc-prod-ladr ul li, .desc-prod-met ul li{
+        font-size:.75rem;
+        margin-bottom:2px;
+    }
+
 }
 
 /*Celulares*/
@@ -739,6 +799,19 @@ input::placeholder,textarea::placeholder{
         height:200px;
         /* padding:0;    */
     }
+
+    
+    .img-prodX{
+        height:200px;
+        /* top:-10px; */
+        /* left:0; */
+    }
+    
+    .prod-aridos{
+        position:relative;
+        top:-50px;
+    }
+
     .prod-1{
         background-size: cover;
         background-position: 50% 75%;
@@ -758,6 +831,38 @@ input::placeholder,textarea::placeholder{
         width:200%;
     }
 
+}
+    /* --------------------------- Especial para slider inicio ---------------------------- */
+
+@media only screen and (max-width: 425px){
+
+    /* --------------------------- Inicio ---------------------------- */
+    .ci-1{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5, 7, 8, 0.5)), url(../images/slider/trailer_mobil.webp);
+        background-size:cover;
+    }
+    .ci-2{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos2_mobil.webp);
+        /* background-position: 20% 0; */
+        background-size:cover;
+    }
+    .ci-3{
+        background:linear-gradient(rgba(5,7,8, 0.5), rgba(5,7,8, 0.5)), url(../images/slider/ladrillos_mobil.webp);
+        background-size: cover;
+    }
+
+    /* --------------------------- Productos ---------------------------- */
+
+    .prod-img img{
+        width:100%;
+        height:110%;
+    }
+    .prod-aridos{
+        top:0;
+    }    
+    .desc-prod ul li{
+        font-size:.9rem;
+    }
 }
 
 /*Celulares angostos*/
@@ -794,6 +899,14 @@ input::placeholder,textarea::placeholder{
         width:80vw;    
     }
 
+/* ---------------Productos--------------- */
+
+    .desc-prod ul{
+        padding: 5px 0;
+    }
+    .desc-prod ul li{
+        font-size:.9rem;
+    }
 
 
 /* ---------------Footer--------------- */
