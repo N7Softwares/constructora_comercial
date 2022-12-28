@@ -7,15 +7,15 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=5">
    <!-- Site Metas -->
-   <title>Constructora Comercial S.R.L</title>
+   <title>Constructora Comercial S.R.L - Corralón en Formosa</title>
+    <link rel="icon" href="./images/slider/logo.webp">
+
+   <meta name="author" content="Barrios Cristian, Galeano Santiago y Gomez Miguel">
    <meta name="keywords" content="">
-   <meta name="description" content="Corralon de la ciudad de Formosa
-   que ofrece venta de materiales de construccion, ejecucion de obras, logistica y servicios fletes">
-   <meta name="author" content="N7 Softwares">
+   <meta name="description" content="El mejor y más completo corralón de Formosa Capital, venga a comprar los materiales de construcción de mejor calidad, los mejores y más accesibles servicios de ejecución de obras 
+   y albañilería, logística y servicio de fletes. ¡CONTACTENOS!">
    <!-- Site Icons -->
    <link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
-   <!-- Bootstrap CSS -->
-   <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 
    <!-- Site CSS -->
    <link rel="stylesheet" href="style.css">
@@ -33,22 +33,15 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
    crossorigin="anonymous">
+
+   <!-- Animaciones AOS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
    <!-- Estilos N7 -->
    <link rel="stylesheet" href="css/n7styles.css">
-
-   <!-- Fuente de letra nueva experimental -->
-   <!-- <link href="https://fonts.cdnfonts.com/css/euclid-circular-a&display=swap" rel="stylesheet">    -->
-   
-
    </head>
    <body class="building_version" data-spy="scroll" data-target=".header">
-      <!-- LOADER -->
-      <!-- <div id="preloader">
-         <img class="preloader" src="images/loaders/loader-building2.gif" alt="">
-      </div> -->
-      <!-- end loader -->
-      <!-- END LOADER -->
-
+ 
       <!------------------------------- Modal ------------------------------->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
          <div class="modal-dialog modal-dialog-centered">
@@ -80,24 +73,24 @@
                         <div class="gem-contacts-item gem-contacts-phone">
                            <ul>
                               <li>
-                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="0" data-bs-target="#exampleModal" >
+                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="0" data-bs-target="#exampleModal" title="Contacto" >
                                     <span class="fa fa-whatsapp"></span>
-                                    +54 3704 083522
-                                    <i class="fa fa-solid fa-caret-down"></i>
+                                    <span class="info-th">+54 3704 083522 <i class="fa fa-solid fa-caret-down"></i></span>
+                                    
                                  </a>
                               </li>
                               <li>
-                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="1" data-bs-target="#exampleModal">
+                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="1" data-bs-target="#exampleModal" title="Correos" >
                                  <span class="fa fa-envelope"></span>
-                                    contacto@construcom.com
-                                    <i class="fa fa-solid fa-caret-down"></i>
+                                 <span class="info-th">ladrillobarato@gmail.com
+                                    <i class="fa fa-solid fa-caret-down"></i></span>
                                  </a>
                               </li>
                               <li>
-                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="2" data-bs-target="#exampleModal">
+                                 <a href="#" data-bs-toggle="modal" class="modal-btn" value="2" data-bs-target="#exampleModal" title="Horarios" >
                                  <span class="fa fa-clock-o"></span>
-                                    Lun - Vier, 7:30 - 18:30
-                                    <i class="fa fa-solid fa-caret-down"></i>
+                                    <span class="info-th">Lun - Vier, 7:30 - 18:30
+                                    <i class="fa fa-solid fa-caret-down"></i></span>
                                  </a>
                                  
                               </li>
@@ -108,7 +101,7 @@
                         <div class="top-area-block top-area-socials socials-colored-hover">
                         <div class="socials inline-inside"> 
                            <a class="socials-item" href="#mapa" title="ubicacion"><i class="fa fa-map-marker" aria-hidden="true"></i></a> 
-                           <a class="socials-item" href="https://www.facebook.com/construcomsrl/" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                           <a class="socials-item" href="https://www.facebook.com/profile.php?id=100088058252446&mibextid=LQQJ4d" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
                          
                         </div>
                      </div>
@@ -141,14 +134,15 @@
             
                   <input type="checkbox" id="check">    
                   <label for="check" class="checkbtn">
-                      <i class="menu-icon"><img src="./images/menu.svg" alt=""></i>
+                      <i class="menu-icon"><img src="./images/menu.svg" alt="menu hamburguesa" title="menu hamburguesa"></i>
                     </label>
                   <ul>
-                      <li class="ul-li"><a href="#" id="itemInicio">INICIO</a></li>
-                      <li class="ul-li"><a href="#nosotros" id="itemNosotros">NOSOTROS</a></li>
-                      <li class="ul-li"><a href="#productos" id="itemProductos">PRODUCTOS</a></li>
-                      <li class="ul-li"><a href="#alcance" id="itemAlcance">ALCANCE</a></li>
-                      <li class="ul-li"><a href="#contacto" id="itemContacto">CONTACTO</a></li>
+                      <li class="ul-li"><a href="#" id="itemInicio" title="Seccion de inicio">INICIO</a></li>
+                      <li class="ul-li"><a href="#nosotros" id="itemNosotros" title="Seccion de nosotros">NOSOTROS</a></li>
+                      <li class="ul-li"><a href="#productos" id="itemProductos" title="Seccion de productos">PRODUCTOS</a></li>
+                      <li class="ul-li"><a href="#alcance" id="itemAlcance" title="Seccion de alcance">ALCANCE</a></li>
+                      <li class="ul-li"><a href="#faq" id="itemFaq" title="Seccion de Preguntas Frecuentes">PREGUNTAS FRECUENTES</a></li>
+                      <li class="ul-li"><a href="#contacto" id="itemContacto" title="Seccion de contacto">CONTACTO</a></li>
                   </ul>
               </div>
             <!-- </div> -->
@@ -161,13 +155,14 @@
      <div id="inicio">
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
          <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item">
                <div class="card-carousel ci-1">
-                 <div class="text-carousel">
-                    <h1>Constructora Comercial S.Q.L.</h1>
-                    <h4>Alquiler de Máquinas</h4>
+
+                 <div class="text-carousel" data-aos="fade-up" data-aos-once="true">
+                    <h1>Constructora Comercial S.R.L.</h1>
+                    <h2 class="h2-textcarousel">Alquiler de Máquinas</h2>
                     <div class="btn-link">
-                     <a href="#contacto" >
+                     <a href="#contacto" title="Seccion de contacto">
                         <div class="btn-contacto">
                            CONTACTENOS
                         </div>
@@ -176,13 +171,13 @@
                  </div>            
               </div>
              </div>
-           <div class="carousel-item">
+           <div class="carousel-item active">
              <div class="card-carousel ci-2">
-               <div class="text-carousel">
-                  <h1>Constructora Comercial S.R.L.</h1>
-                  <h4>Materiales de Construcción</h4>
+               <div class="text-carousel" data-aos="fade-up" data-aos-once="true">
+                  <h2>Constructora Comercial S.R.L.</h2>
+                  <h3>Materiales de Construcción</h3>
                   <div class="btn-link">
-                     <a href="#contacto">
+                     <a href="#contacto" title="Seccion de contacto">
                         <div class="btn-contacto">
                            CONTACTENOS
                         </div>
@@ -193,11 +188,11 @@
            </div>
            <div class="carousel-item">
             <div class="card-carousel ci-3" >
-               <div class="text-carousel">
-                  <h1>Constructora Comercial S.R.L.</h1>
-                  <h4>Servicios de Obras</h4>
+               <div class="text-carousel" data-aos="fade-up" data-aos-once="true">
+                  <h2>Constructora Comercial S.R.L.</h2>
+                  <h3>Servicios de Obras</h3>
                   <div class="btn-link" >
-                     <a href="#contacto">
+                     <a href="#contacto" title="Seccion de contacto">
                         <div class="btn-contacto">
                            CONTACTENOS
                         </div>
@@ -225,7 +220,7 @@
 
       <div id="nosotros" class="section">
          <div class="container">
-            <div class="slider-wrapper d-xl-flex align-items-center">
+            <div class="slider-wrapper d-xl-flex align-items-center" data-aos="fade-up" data-aos-once="true">
                <div class="owl-carousel main-carousel">
                   <div class="item slide1">
                      <div class="container-fluid">
@@ -237,12 +232,11 @@
                                        <h3>Sobre<br> Nosotros</h3>
                                     </div>
                                  <div class="slider-img d-block d-sm-none"><img loading="lazy" alt="Sobre nosotros" class=" lazyload fadein img-fluid"
-                                         height="400px" src="images/slider/construccion_contraluz.webp" title="Sobre nosotros"></div>
-                                 <p class="p-3">The Cutting-Edge Data Analytics can unlock business values that are
-                                     hidden in your data. The Data Scientists in our Analytics group can expertly
-                                     apply a range of advanced methods to develop your business insights and solve
-                                     some of your business problems that go past the conventional Business
-                                     Intelligence area.</p>
+                                         height="400px" src="images/slider/history.webp" title="Sobre nosotros"></div>
+                                 <p class="p-3">Somos la <b>Constructora Comercial SRL</b>, aprovechamos cada nuevo producto que surge en el
+                                    campo de la construcción para posibilitar que las obras se transformen en todos sus aspectos.
+                                 Las innovaciones en los materiales de construcción están cambiando la forma en que las obras se realizan. Las Empresas Constructoras buscan potenciar una nueva experiencia en sus clientes con estas innovaciones.
+                              En nuestra Constructora Comercial nos especializamos en ofrecer estos tipos de materiales de construcción que facilitan el trabajo, ahorra tiempo y dinero al cliente. Queremos cambiar Formosa, dando un paso a la vez.</p>
                                  <div class="text-left pl-4 pr-4">
                                      <!-- <a href="#"><button class="btn finbyz-button">View
                                              More</button></a> -->
@@ -251,7 +245,7 @@
                              <div
                                  class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-center">
                                  <div class="slider-img d-none d-sm-flex justify-content-center"><img loading="lazy" alt="Sobre nosotros"
-                                         class="img-fluid lazyload fadein" height="400px" src="images/slider/construccion_contraluz.webp"
+                                         class="img-fluid lazyload fadein" height="400px" src="images/slider/history.webp"
                                          title="Sobre nosotros"></div>
                              </div>
                          </div>
@@ -260,19 +254,45 @@
                    <div class="item slide1">
                        <div class="container-fluid">
                            <div class="row">
-                               <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                 <!-- <h2 class="pl-3 pr-3 text-left">IT<br>
+                                     <span>Consulting</span></h2> -->
+                                     <div class="section-title">
+                                        <h3>Historia</h3>
+                                     </div>
+                                 <div class="slider-img d-block d-sm-none"><img loading="lazy" alt="Nuestra historia" class="img-fluid lazyload fadein"
+                                         height="400px" src="images/slider/about_us.webp" title="Nuestra historia"></div>
+                                         <p class="p-3"> Con la necesidad de opciones para los clientes comunes y de menos poder adquisitivo nace nuestra organización bautizada como <b>Constructora Comercial SRL</b> en el año 
+                                          2007, fundada por <b>Ricardo Alberto Ruloff</b> en la Provincia de Formosa. Provincia que, por aquel entonces, no contaba con una Empresa de Materiales de Construcción especializada en ofrecer productos de calidad y precios accesibles a gente de escasos recursos económicos.</p>
+                                 <div class="text-left pl-4 pr-4">
+                                     <!-- <a href="#"><button class="btn finbyz-button">View
+                                             More</button></a> -->
+                                 </div>
+                             </div>
+                             <div
+                                 class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+                                 <div class="slider-img d-none d-sm-flex justify-content-center"><img loading="lazy" alt="Nuestra historia"
+                                         class="img-fluid lazyload fadein" height="400px" src="images/slider/about_us.webp"
+                                         title="Nuestra historia"></div>
+                             </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="item slide1">
+                       <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                    <!-- <h2 class="pl-3 pr-3 text-left">Data<br>
                                        <span>Analytics</span></h2> -->
                                        <div class="section-title">
                                        <h3>Nuestra <br> Actualidad</h3>
                                     </div>
                                    <div class="slider-img d-block d-sm-none"><img loading="lazy" alt="Nuestra actualidad" class="img-fluid lazyload fadein"
-                                           height="400px" src="images/slider/construccion.webp" title="Nuestra actualidad"></div>
-                                   <p class="p-3">The Cutting-Edge Data Analytics can unlock business values that are
-                                       hidden in your data. The Data Scientists in our Analytics group can expertly
-                                       apply a range of advanced methods to develop your business insights and solve
-                                       some of your business problems that go past the conventional Business
-                                       Intelligence area.</p>
+                                           height="400px" src="images/slider/construccion_contraluz.webp" title="Nuestra actualidad"></div>
+                                   <p class="p-3">Hoy en día nuestro <b>Corralón de Materiales</b> alcanzó un nivel de relevancia en Formosa Capital y en la sociedad formoseña en general, estamos muy bien posicionados a comparación de nuestros primeros años. Pese a las 
+                                    dificultades económicas del país, siempre nos hemos mantenido firmes en nuestro compromiso con los clientes y sobre todo con los productos que ofrecemos, siempre poniendo el factor calidad-precio como
+                                    prioridad.
+                                   </p>
                                    <div class="text-left pl-4 pr-4">
                                        <!-- <a href="#"><button class="btn finbyz-button">View
                                                More</button></a> -->
@@ -281,37 +301,10 @@
                                <div
                                    class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-center">
                                    <div class="slider-img d-none d-sm-flex justify-content-center"><img loading="lazy" alt="Nuestra actualidad"
-                                           class="img-fluid lazyload fadein" height="400px" src="images/slider/construccion.webp"
+                                           class="img-fluid lazyload fadein" height="400px" src="images/slider/construccion_contraluz.webp"
                                            title="Nuestra actualidad"></div>
                                </div>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="item slide1">
-                       <div class="container-fluid">
-                           <div class="row">
-                               <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                                   <!-- <h2 class="pl-3 pr-3 text-left">IT<br>
-                                       <span>Consulting</span></h2> -->
-                                       <div class="section-title">
-                                          <h3>Historia</h3>
-                                       </div>
-                                   <div class="slider-img d-block d-sm-none"><img loading="lazy" alt="Nuestra historia" class="img-fluid lazyload fadein"
-                                           height="400px" src="images/slider/albañil.webp" title="Nuestra historia"></div>
-                                   <p class="p-3">With our IT expertise and in-depth understanding of the industry, we
-                                       can help you to develop or update your strategies and refine your goals which
-                                       will help you to maximize your chances of success.</p>
-                                   <div class="text-left pl-4 pr-4">
-                                       <!-- <a href="#"><button class="btn finbyz-button">View
-                                               More</button></a> -->
-                                   </div>
-                               </div>
-                               <div
-                                   class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-center">
-                                   <div class="slider-img d-none d-sm-flex justify-content-center"><img loading="lazy" alt="Nuestra historia"
-                                           class="img-fluid lazyload fadein" height="400px" src="images/slider/albañil.webp"
-                                           title="Nuestra historia"></div>
-                               </div>
+                               
                            </div>
                        </div>
                    </div>
@@ -327,27 +320,23 @@
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="row">
                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 serv" style="background-color:#222;">
-                  <div class="serv-blog">
-                     <img loading="lazy" src="images/mision.svg" alt="mision de la empresa" />
+                  <div class="serv-blog" data-aos="zoom-in" data-aos-once="true">
+                     <img loading="lazy" src="images/mision.svg" alt="mision de la empresa" title="mision de la empresa" />
                   </div>
-                  <div class="serv-blog">
+                  <div class="serv-blog"  data-aos="zoom-in" data-aos-once="true">
                      <h3>Misión</h3>
                      <p class="text-gray">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Ut elit tellus, luctus nec ullamcorper mattis,
-                         pulvinar dapibus leo.</p>
+                        Brindamos los mejores productos y servicios en relación calidad-precio. Productos que, ahorran esfuerzo, tiempo y dinero a cada cliente e incrementan la calidad de sus obras.</p>
                   </div>
                </div>
                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 serv" style="background:#181818;">
-                  <div class="serv-blog">
-                     <img loading="lazy" src="images/vision.svg" alt="vision de la empresa" />
+                  <div class="serv-blog" data-aos="zoom-in" data-aos-once="true">
+                     <img loading="lazy" src="images/vision.svg" alt="vision de la empresa" title="vision de la empresa" />
                   </div>
-                  <div class="serv-blog">
+                  <div class="serv-blog" data-aos="zoom-in" data-aos-once="true">
                      <h3>Visión</h3>
                      <p class="text-gray">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Ut elit tellus, luctus nec ullamcorper mattis, 
-                        pulvinar dapibus leo.</p>
+                        Aspiramos a ser referentes en la Provincia de Formosa y en todo el norte argentino por nuestro compromiso con las necesidades de los clientes, brindándoles una solución accesible y de alta calidad.</p>
                   </div>
                </div>
             </div>
@@ -361,26 +350,230 @@
       <div id="productos" class="section">
          <div class="container">
             <div class="section-title">
-               <h3>Productos</h3>
+               <h3 data-aos="zoom-in" data-aos-once="true">Productos</h3>
+               <!-- <p class="lead text-secondary text-center" data-aos="fade-up" data-aos-once="true">
+                  En esta sección expondremos los 
+                  rubros de los productos/servicios 
+                  que la empresa brinda a sus clientes. 
+                  Junto con un listado de dichos productos y servicios.
+                  Los prod/serv utilizados en esta seccion son solo 
+                  para ejemplificacion, necesitariamos la Informacion
+                  oficial.
+               </p> -->
+
             </div>
             <div class="row justify-content-center">
                <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                  <div class="cards-productos">
+                  <div class="cards-productos" data-aos="fade-up" data-aos-once="true">
                      <div class="container-fluid">
                      <div class="row">
-                        <div class="col-12 col-lg-5 col-md-5 col-sm-5 img-prod d-flex justify-content-center align-items-center">
-                           <div class="prod-1">
+                        <div class="col-12 col-lg-5 col-md-5 col-sm-5 col-img d-flex justify-content-center align-items-center"
+                        data-aos="fade-up" data-aos-once="true">
+                           <div class="img-prodX ">
+                              <div class="prod-img">
+                                 <img src="./images/slider/ladrillos-prod.webp" loading="lazy" alt="8x18x24 - 8x18x25 - 8x18x30 - 8x18x31 - 8x18x33 - 10x15x25 - 11x16x23 - 12x18x24 - 12x18x25 - 12x18x30 - 12x18x31 - 12x18x33 - 18x18x24 - 18x18x25 - 18x18x30 - 18x18x31 - 18x18x33 - Peine 12 - Peine 18 - Rejilla - Ladrillos Común">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod desc-prod-ladr">
+                           <div class="container">
+                           <h3>Ladrillos</h3>
+                           <div class="row">
+                              <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                 <ul>
+                                    <li>Ladrillos 8x18x24</li>
+                                    <li>Ladrillos 8x18x25</li>
+                                    <li>Ladrillos 8x18x30</li>
+                                    <li>Ladrillos 8x18x31</li>
+                                    <li>Ladrillos 8x18x33</li>
+                                 </ul>
+                              </div>
+                              <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                 <ul>
+                                    <li>Ladrillos 10x15x25</li>
+                                    <li>Ladrillos 11x16x23</li>
+                                    <li>Ladrillos 12x18x24</li>
+                                    <li>Ladrillos 12x18x25</li>
+                                    <li>Ladrillos 12x18x30</li>
+                                 </ul>
+                              </div>
+                              <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                 <ul>
+                                    <li>Ladrillos 12x18x31</li>
+                                    <li>Ladrillos 12x18x33</li>
+                                    <li>Ladrillos 18x18x24</li>
+                                    <li>Ladrillos 18x18x25</li>
+                                    <li>Ladrillos 18x18x30</li>
+                                 </ul>
+                              </div>
+                              <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                 <ul>
+                                    <li>Ladrillos 18x18x31</li>
+                                    <li>Ladrillos 18x18x33</li>
+                                    <li>Ladrillos Peine 12</li>
+                                    <li>Ladrillos Peine 18</li>
+                                    <li>Ladrillos Rejilla</li>
+                                    <li>Ladrillos Común</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                  <div class="cards-productos" data-aos="fade-up" data-aos-once="true">
+                     <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-12 col-lg-5 col-md-5 col-sm-5 col-img d-flex justify-content-center align-items-center"
+                        data-aos="fade-up" data-aos-once="true">
+                           <div class="img-prodX ">
+                              <div class="prod-img">
+                                 <img src="./images/slider/cal-2.webp" loading="lazy" alt="Loma Negra - Holcim - Avellaneda - Cemento Suelto - Cal Común 25kl - Cal Común 20kl - FGH 25kl - Cal Avellaneda - Pegamento Weber - Pegamento Klaukol - Hidrofugo X1 - Hidrofugo X4 - Hidrofugo X10 -Hidrofugo X20">
+                              </div>
                            </div>
                         </div>
                         <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod">
                            <div class="container">
-                           <h3>Materiales de Construccion</h3>
-                           <p>Lorem ipsum dolor sit amet consectetur 
-                              adipisicing elit. Quisquam cum qui eum, 
-                              dolore iusto voluptatibus pariatur officiis 
-                              tempora exercitationem quo asperiores fugit 
-                              harum accusamus expedita, explicabo unde dicta 
-                              neque officia.</p>
+                           <h3>Materiales de Construcción</h3>
+                           
+                           <div class="row">
+                              <div class="col-4">
+                                 <ul>
+                                    <li>Loma Negra</li>
+                                    <li>Holcim</li>
+                                    <li>Avellaneda</li>
+                                    <li>Cemento Suelto</li>
+                                    <li>Cal Común 25kl</li>
+                                 </ul>
+                              </div>
+                              <div class="col-4">
+                                 <ul>
+                                    <li>Cal Común 20kl</li>
+                                    <li>FGH 25kl</li>
+                                    <li>Cal Avellaneda</li>
+                                    <li>Pegamento Weber</li>
+                                    <li>Pegamento Klaukol</li>
+                                 </ul>
+                              </div>
+                              <div class="col-4">
+                                 <ul>
+                                    <li>Hidrofugo X1</li>
+                                    <li>Hidrofugo X4</li>
+                                    <li>Hidrofugo X10</li>
+                                    <li>Hidrofugo X20</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+
+               <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                  <div class="cards-productos" data-aos="fade-up" data-aos-once="true">
+                     <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-12 col-lg-5 col-md-5 col-sm-5 col-img d-flex justify-content-center align-items-center"
+                        data-aos="fade-up" data-aos-once="true">
+                           <div class="img-prodX ">
+                              <div class="prod-img">
+                                 <img src="./images/slider/iron.webp" loading="lazy" alt="Alambre Atar - Hierros 4,2 - Hierros 6 - Hierros 8 - Hierros 10 - Hierros 12 - Hierros 16 - Perfil 80x6 - Perfil 80x12 - Perfil 100x6 - Perfil 100x12 - Perfil 120x12 - Chapas Cinc 1.00x1 27 - Chapas Cinc 1.00x1 25 - Chapas Cinc 0.90x1 27 - Chapas Cinc 0.90x1 25 - AutoPerforantes - Electrodos 2,5 - Electrodos 3,00 - Discos Cortes">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod desc-prod-met">
+                           <div class="container">
+                           <h3>Metalurgica</h3>
+                           
+                              <div class="row">
+                                 <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                    <ul>
+                                       <li>Alambre Atar</li>
+                                       <li>Hierros 4,2</li>
+                                       <li>Hierros 6</li>
+                                       <li>Hierros 8</li>
+                                       <li>Hierros 10</li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                    <ul>
+                                       <li>Hierros 12</li>
+                                       <li>Hierros 16</li>
+                                       <li>Perfil 80x6</li>
+                                       <li>Perfil 80x12</li>
+                                       <li>Perfil 100x6</li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                    <ul>
+                                       <li>Perfil 100x12</li>
+                                       <li>Perfil 120x12</li>
+                                       <li>Chapas Cinc 1.00x1 27</li>
+                                       <li>Chapas Cinc 1.00x1 25</li>
+                                       <li>Chapas Cinc 0.90x1 27</li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-6 col-lg-3 col-md-3 col-sm-3">
+                                    <ul>
+                                       <li>Chapas Cinc 0.90x1 25</li>
+                                       <li>AutoPerforantes</li>
+                                       <li>Electrodos 2,5</li>
+                                       <li>Electrodos 3,00</li>
+                                       <li>Discos Cortes</li>
+                                    </ul>
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                  <div class="cards-productos" data-aos="fade-up" data-aos-once="true">
+                     <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-12 col-lg-5 col-md-5 col-sm-5 col-img d-flex justify-content-center align-items-center"
+                        data-aos="fade-up" data-aos-once="true">
+                           <div class="img-prodX ">
+                              <div class="prod-img prod-aridos">
+                                 <img src="./images/slider/arena.webp" loading="lazy" alt="Arena x Metro - Arena x 1/2 - Arena Bolsas - Piedras x Metro - Piedras x 1/2 - Piedras x Bolsas - Membranas - Filtros - Baldes - Pala Ancha - Pala Punta - Lajas">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod">
+                           <div class="container">
+                           <h3>Arido/Varios</h3>
+                               <div class="row">
+                                 <div class="col-6">
+                                    <ul>
+                                       <li>Arena x Metro</li>
+                                       <li>Arena x 1/2</li>
+                                       <li>Arena Bolsas</li>
+                                       <li>Piedras x Metro</li>
+                                       <li>Piedras x 1/2</li>
+                                       <li>Piedras x Bolsas</li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-6">
+                                    <ul>
+                                       <li>Membranas</li>
+                                       <li>Filtros</li>
+                                       <li>Baldes</li>
+                                       <li>Pala Ancha</li>
+                                       <li>Pala Punta</li>
+                                       <li>Lajas</li>
+                                    </ul>
+                                 </div>
+                               </div>
                            </div>
                         </div>
                      </div>
@@ -388,7 +581,7 @@
                   </div>
                </div>
                <div class="col-12 col-lg-6 col-md-12 col-sm-12">
-                  <div class="cards-productos">
+                  <div class="cards-productos"  data-aos="fade-up" data-aos-once="true">
                      <div class="container-fluid">
                         <div class="row">
                            <div class="col-12 col-lg-5 col-md-5 col-sm-5 img-prod d-flex justify-content-center align-items-center">
@@ -399,12 +592,7 @@
                               <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aperiam.</p> -->
                            <div class="container">
                            <h3>Servicios de Obras</h3>
-                              <p>Lorem ipsum dolor sit amet consectetur 
-                                 adipisicing elit. Quisquam cum qui eum, 
-                                 dolore iusto voluptatibus pariatur officiis 
-                                 tempora exercitationem quo asperiores fugit 
-                                 harum accusamus expedita, explicabo unde dicta 
-                                 neque officia.</p>
+                              <p>Ejecución de pequeñas obras y asesoramiento.</p>
                               </div>
                            </div>
                         </div>
@@ -412,7 +600,7 @@
                   </div>
                </div>
                <div class="col-12 col-lg-6 col-md-12 col-sm-12">
-                  <div class="cards-productos">
+                  <div class="cards-productos" data-aos="fade-up" data-aos-once="true">
                      <div class="container-fluid">
                         <div class="row">
                            <div class="col-12 col-lg-5 col-md-5 col-sm-5 img-prod d-flex justify-content-center align-items-center">
@@ -423,12 +611,7 @@
                            <div class="col-12 col-lg-7 col-md-7 col-sm-7 desc-prod">
                               <div class="container">
                                  <h3>Servicio Fletes</h3>
-                                 <p>Lorem ipsum dolor sit amet consectetur 
-                                    adipisicing elit. Quisquam cum qui eum, 
-                                    dolore iusto voluptatibus pariatur officiis 
-                                    tempora exercitationem quo asperiores fugit 
-                                    harum accusamus expedita, explicabo unde dicta 
-                                    neque officia.</p>
+                                 <p>Servicios de logística en obras y alquiler de maquinas.</p>
                                  </div>
                            </div>
                         </div>
@@ -446,47 +629,104 @@
 
       <div id="alcance" class="section section-alcance">
          <div class="section-title ">
-            <h3 class="text-light">Alcance de Ventas</h3>
+            <h3 class="text-light" data-aos="zoom-in" data-aos-once="true">Alcance de Ventas</h3>
          </div>
             
          <div class="container contenedor-mapasJs rounded d-flex align-items-center justify-content-center">
             <div class="row w-100 ">
-               <div class="col-12 col-lg-6 col-md-6 col-sm-12 my-3 ">
+               <div class="col-12 col-lg-6 col-md-6 col-sm-12 my-3 " data-aos="zoom-in" data-aos-once="true">
                   <div class="mapaJS">
+                     <div style="padding-top: 25px;">
+                        <h4 class="text-center text-light">Formosa - Argentina</h4>
+                     </div>
                      <!--  height="400" width="650" -->
-                     <img src="images/maps/Formosa.svg" alt="Mapa de Formosa" class="">
+                     <img src="images/maps/Formosa.svg" alt="Mapa de Formosa" title="Mapa de Formosa" class="">
                   </div>
                </div>
-               <div class="col-12 col-lg-6 col-md-6 col-sm-12 my-3 ">
+               <div class="col-12 col-lg-6 col-md-6 col-sm-12 my-3 " data-aos="zoom-in" data-aos-once="true">
                   <div>
                      <h4 class="text-center text-light">Formosa - Argentina</h4>
                   </div>
                   <div class="desc-mapaJS ">
-                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati officia nobis quam vero repellendus hic, quis 
-                        earum tempore, et molestiae aut, voluptatem deleniti iste 
-                        sit ipsum. Quis blanditiis voluptate repellat.  </p>
-                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                           Obcaecati officia nobis quam vero repellendus hic, quis 
-                           earum tempore, et molestiae aut, voluptatem deleniti iste 
-                           sit ipsum. Quis blanditiis voluptate repellat.  </p>
-                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati officia nobis quam vero repellendus hic, quis 
-                        earum tempore, et molestiae aut, voluptatem deleniti iste 
-                        sit ipsum. Quis blanditiis voluptate repellat.  </p>
-                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                           Obcaecati officia nobis quam vero repellendus hic, quis 
-                           earum tempore, et molestiae aut, voluptatem deleniti iste 
-                           sit ipsum. Quis blanditiis voluptate repellat.  </p>
+                     <p class="">Nuestro corralón cerca de tu ubicación siempre, nos extendemos por todos los departamentos de la Provincia de Formosa.
+                     </p>
+                     <p class="">Formosa: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Pilcomayo: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Laishi: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Pirané: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Pilagás: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Patiño: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Bermejo: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Ramón Lista: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
+                     <p class="">Matacos: (numero de ventas) ventas realizadas con un tiempo de entrega de (numero de días u horas) 
+                     </p>
                   </div>
                </div>
              </div>
          </div>
       </div>
       <!-- end section -->
-      <!-- <div id="price" class="section pr">
-      </div> -->
-
+      <!-- ------------------------------------------FAQ---------------------------------------------------------------- -->
+     <section id="faq" class="section section-faq">
+         <div class="container">
+             <div class="section-title row text-center">
+               <div class="col-md-12 col-md-offset-4">
+                  <h3 data-aos="zoom-in" data-aos-once="true">Preguntas frecuentes</h3>
+                  <p class="lead text-secondary" data-aos="fade-up" data-aos-once="true">
+                     En esta sección se encontrarán las dudas más frecuentes que hacen los clientes sobre
+                     los productos y servicios que ofrecen. 
+                     Necesitaríamos conseguir las preguntas para agregarlas acá con su respectiva información. </p>
+               </div>
+               <!-- end col -->
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="accordion" id="accordionExample">
+                     
+                        <h2 class="accordion-header" id="headingOne" >
+                        <button class="accordion-button collapsed"  data-aos="fade-up" data-aos-once="true" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="circle-icon"> <i class="fa fa-question"></i> </div>
+                        <span class="text-faq">Primera Pregunta</span> </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body"> <strong>Primer item del acordion-body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                        </div>
+                     
+                   
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" data-aos="fade-up" data-aos-once="true" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           <div class="circle-icon"> <i class="fa fa-question"></i> </div>
+                        <span class="text-faq">Segunda Pregunta</span> </button>
+                           </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body"> <strong>Segundo item del acordion-body.</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </div>
+                        </div>
+                    
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed"  data-aos="fade-up" data-aos-once="true" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 
+                           <div class="circle-icon"> <i class="fa fa-question"></i> </div>
+                        <span class="text-faq">Tercera Pregunta</span> </button>
+                           </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body"> <strong>Tercer item del acordion-body.</strong> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis  </div>
+                        </div>
+                     
+                  </div>
+                  </div>
+            </div>
+         </div>
+      </section>
 <!---------------------------------------------------- Contacto ---------------------------------------------------->
 
 
@@ -494,14 +734,25 @@
          <div class="container">
             <div class="section-title row text-center">
                <div class="col-md-12 col-md-offset-4">
-                  <h3>Contáctanos</h3>
-                  <p class="lead text-secondary">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                  <h3 data-aos="zoom-in" data-aos-once="true">Contáctanos</h3>
+                  <p class="lead text-secondary" data-aos="fade-up" data-aos-once="true">
+                     Sección en donde estará la información 
+                     de contacto de la empresa: números de teléfono, 
+                     dirección de la organización, correo electrónico, etc. 
+                     Además de un formulario de contacto, 
+                     en dicho formulario los usuarios dejaran su información 
+                     de contacto (nombre, email y numero telefónico) y un 
+                     mensaje de lo que desean comunicar, estos datos se enviarán a un correo 
+                     que nos brindará la CM mas adelante. Debajo hay un mapa con la 
+                     ubicacion real de la empresa.</p>
                </div>
                <!-- end col -->
             </div>
             <!-- end title -->
+            <br>
+            <br>
             <div class="row">
-               <div class="col-lg-4 col-md-4">
+               <div class="col-lg-4 col-md-5" data-aos="fade-right" data-aos-once="true">
                   <div class="contant-info">
                      <ul class="item-display-block">
                         <li>
@@ -509,7 +760,7 @@
                               <div class="icon"><i class="fa fa-home"></i></div>
                            </div>
                            <div class="info-content">
-                              <h5 class="uppercase"> Dirección:</h5>
+                              <h4 class="uppercase .h5"> Dirección:</h4>
                               <p>Av. Gendarmería Nacional 1835, P3600 Formosa</p>
                            </div>
                         </li>
@@ -518,8 +769,9 @@
                               <div class="icon"><i class="fa fa-volume-control-phone"></i></div>
                            </div>
                            <div class="info-content">
-                              <h5 class="uppercase"> Teléfono:</h5>
-                              <p>+54 3704 072343</p>
+                              <h4 class="uppercase .h5"> Teléfono:</h4>
+                              <p>+54 (9) 3704 569009</p>
+                              <p>+54 (9) 3704 308920</p>
                            </div>
                         </li>
                         <li>
@@ -527,33 +779,35 @@
                               <div class="icon"><i class="fa fa-envelope-o"></i></div>
                            </div>
                            <div class="info-content">
-                              <h5 class="uppercase"> Correo Electrónico:</h5>
-                              <p>construcom@gmail.com</p>
+                              <h4 class="uppercase .h5"> Correo Electrónico:</h4>
+                              <p>ladrillobarato@gmail.com</p>
                            </div>
                         </li>
                      </ul>
                   </div>
                </div>
-               <div class="col-md-8">
+               <div class="col-lg-8 col-md-7" data-aos="fade-up" data-aos-once="true">
                   <div class="contact_form">
                      <div id="message"></div>
-                     <!-- https://formsubmit.co/barrioscristian.9908@email.com -->
-                     <form id="contactform" class="row" name="contactform" action="https://formspree.io/f/xaykqdep" method="POST">
+                     <form id="contactform" class="row" name="contactform" action="https://formspree.io/f/mrgvzqzk" method="POST">
                         <fieldset class="row-fluid">
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <input type="text" name="name" id="name" class="form-control" placeholder="Nombre completo">
+                              <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre completo">
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <input type="number" name="tel" id="tel" class="form-control" placeholder="N° de Telefono">
+                              <input type="number" name="telefono" id="telefono" class="form-control" placeholder="N° de Telefono">
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                               <input type="email" name="email" id="email" class="form-control" placeholder="Email">
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <textarea class="form-control" name="message" id="mensaje" rows="6" placeholder="Tu Mensaje.."></textarea>
+                              <input type="text" name="asunto" id="asunto" class="form-control" placeholder="Asunto">
+                           </div>
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <textarea class="form-control" name="mensaje" id="mensaje" rows="6" placeholder="Tu Mensaje.."></textarea>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                              <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Enviar</button>
+                              <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block button-form">Enviar</button>
                            </div>
                         </fieldset>
                      </form>
@@ -569,7 +823,7 @@
     <!---------------------------------------------------- Mapa ---------------------------------------------------->
 
       <div class="container-fluid">
-      <div class="row" id="mapa">
+      <div class="row" id="mapa" data-aos="fade-up" data-aos-once="true">
          <iframe title="Mapa de la ciudad de formosa con la ubicacion del corralon" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.068061949395!2d-58.19878228547077!3d-26.161912768607923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945caff281ff5181%3A0x2a45b8e0e0978754!2sConstructora%20Comercial%20S.R.L.!5e0!3m2!1ses!2sar!4v1667666086512!5m2!1ses!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       </div>
@@ -584,7 +838,10 @@
                   <div class="widget widget_text">
                      <h2 class="widget-title"><span>SOBRE NOSOTROS</span></h2>
                      <div class="textwidget">
-                        <p>Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget. Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit ege  Aenean suscipit eget mi act fermentum phasellus.</p>
+                        <p>Somos la <b>Constructora Comercial SRL</b>, aprovechamos cada nuevo producto que surge en el
+                           campo de la construcción para posibilitar que las obras se transformen en todos sus aspectos.
+                        Las innovaciones en los materiales de construcción están cambiando la forma en que las obras se realizan. Las Empresas Constructoras buscan potenciar una nueva experiencia en sus clientes con estas innovaciones.
+                     En nuestra Constructora Comercial nos especializamos en ofrecer estos tipos de materiales de construcción que facilitan el trabajo, ahorra tiempo y dinero al cliente. Queremos cambiar Formosa, dando un paso a la vez.</p>
                      </div>
                   </div>
                </div>
@@ -592,11 +849,12 @@
                   <div class="widget widget_links">
                      <h2 class="widget-title"><span>ENLACES</span></h2>
                      <ul class="wprt-links clearfix col2">
-                        <li><a data-scroll="" href="#">INICIO</a></li>
-                        <li><a data-scroll="" href="#nosotros">NOSOTROS</a></li>
-                        <li><a data-scroll="" href="#productos">PRODUCTOS</a></li>
-                        <li><a data-scroll="" href="#alcance">ALCANCE</a></li>
-                        <li><a data-scroll="" href="#contacto">CONTACTO</a></li>
+                        <li><a data-scroll="" href="#">Inicio</a></li>
+                        <li><a data-scroll="" href="#nosotros">Nosotros</a></li>
+                        <li><a data-scroll="" href="#productos">Productos</a></li>
+                        <li><a data-scroll="" href="#alcance">Alcance</a></li>
+                        <li><a data-scroll="" href="#faq">Preguntas Frecuentes</a></li>
+                        <li><a data-scroll="" href="#contacto">Contacto</a></li>
 					 </ul>
                   </div>
                </div>
@@ -610,21 +868,18 @@
                         </li>
                         <li class="phone clearfix">
                            <span class="hl">Teléfono:</span> 
-                           <span class="text">+54 3704 072343</span>
+                           <span class="text">+54 (9) 3704 569009</span>
+                           <span class="text">+54 (9) 3704 308920</span>
                         </li>
                         <li class="email clearfix">
-                           <span class="hl">Correo:</span>
-                           <span class="text">construcom@gmail.com</span>
+                           <span class="hl">Correo:</span><br>
+                           <a href="mailto:ladrillobarato@gmail.com" title="correo" class="" target="_blank">ladrillobarato@gmail.com</a>
                         </li>
                      </ul>
                   </div>
                   <div class="widget widget_socials ">
                      <div class="socials ">
-                        <!-- <a target="_blank" href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a> -->
-                        <a target="_blank" href="https://www.facebook.com/construcomsrl/" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-                        <!-- <a target="_blank" href="#" aria-label="Google plus"><i class="fa fa-google-plus"></i></a> -->
-                        <!-- <a target="_blank" href="#" aria-label="Pinterest"><i class="fa fa-pinterest"></i></a> -->
-                        <!-- <a target="_blank" href="#" aria-label="Dribble"><i class="fa fa-dribbble"></i></a> -->
+                        <a target="_blank" title="facebook" href="https://www.facebook.com/profile.php?id=100088058252446&mibextid=LQQJ4d" aria-label="Facebook"><i class="fa fa-facebook"></i></a>                        
                      </div>
                   </div>
                </div>
@@ -638,20 +893,11 @@
                         <div id="copyright" class=" ">
                            <p class="text-center text-gray mb-0">
                               Todos los derechos reservados. Sitio Web creado por 
-                              <a class="footer-link" href="https://n7softwares.github.io/" target="_blank">N7 Softwares© 2022</a>
+                              <a class="footer-link" href="https://n7softwares.github.io/" title="Sitio web del equipo desarrollador de la pagina" target="_blank">N7 Softwares© 2022</a>
                            </p>
                         </div>
                         <!-- /#copyright -->
                      </div>
-                     <!-- /.bottom-bar-content -->
-                     <!-- <div class="bottom-bar-menu pull-right">
-                        <ul class="bottom-nav">
-                           <li><a href="#/">HISTORY</a></li>
-                           <li><a href="#/">FAQ</a></li>
-                           <li><a href="#/">EVENTS</a></li>
-                        </ul>
-                     </div> -->
-                     <!-- /.bottom-bar-menu -->
                   </div>
                </div>
             </div>
@@ -661,30 +907,27 @@
       <a href="#" aria-label="Etiqueta para volver al inicio de la pagina" title="Volver arriba" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
       <!-- ALL JS FILES -->
       <script src="js/all.js"></script>
-      <!-- ALL PLUGINS -->
-      <!-- <script src="js/custom.js"></script> -->
-      <!-- <script src="js/portfolio.js"></script> -->
-      <!-- <script src="js/hoverdir.js"></script>    -->
-      <!-- JS del slider nosotros -->
-       <!-- JS del slider nosotros -->
-       <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-       <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script>
-       <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script> -->
-       <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
        <script src='https://finbyz.tech/assets/finbyzweb/js/combine.min.js'></script>
        <script  src="js/js_about_us/script.js"></script>
-      
-      <!-- JavaScript del MAPA de Alcance -->
-      <!-- <script src="js/mapa_alcance/Argentina/mapdata.js"></script>
-      <script src="js/mapa_alcance/Argentina/countrymap.js"></script>
-      <script src="js/mapa_alcance/Paraguay/mapdata.js"></script>
-      <script src="js/mapa_alcance/Paraguay/countrymap.js"></script> -->
-
+   
           <!-- JavaScript Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
       <!-- JS Propios -->
       <script src="./js/n7.js"></script>
+   
+      <!-- Font Awesome cuenta de Galeano -->
+    <!-- <script src="https://kit.fontawesome.com/52ab3134b2.js" crossorigin="anonymous"></script> -->
+
+      <!-- JavaScript para AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- Inicializacion para AOS -->
+      <script>
+         AOS.init({
+            delay:150
+         });
+       </script>
 
    </body>
 </html>

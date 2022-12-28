@@ -4,6 +4,7 @@ const itemInicio = document.getElementById("itemInicio");
 const itemNosotros= document.getElementById("itemNosotros");
 const itemProductos = document.getElementById("itemProductos");
 const itemAlcance = document.getElementById("itemAlcance");
+const itemFaq = document.getElementById("itemFaq");
 const itemContacto = document.getElementById("itemContacto");
 
 // ---------------------------- NavBar Top ----------------------------
@@ -14,12 +15,12 @@ let infoModales = [
         descripcion:`
         <div class="row">
             <div class="col-6">
-                <p>WhatsApp:</p>
-                <p>Telefono Fijo:</p>
+                <p>WhatsApp Venta:</p>
+                <p>WhatsApp Personal:</p>
             </div>
             <div class="col-6">
-           <p><a class="text-warning" href="https://wa.me/5493704073147" target="_blank">+54 3704 072343</a></p>
-            <p><a class="text-warning" href="https://wa.me/3705077825" target="_blank">+54 1102 293812</a></p>
+           <p><a class="text-warning" href="https://wa.me/5493704569009" target="_blank">+54 (9) 3704 569009</a></p>
+            <p><a class="text-warning" href="https://wa.me/5493704308920" target="_blank">+54 (9) 3704 308920</a></p>
             </div>
         </div>
             `
@@ -28,13 +29,11 @@ let infoModales = [
         titulo:`Correos Electronicos`,
         descripcion:`
         <div class="row">
-            <div class="col-4 col-lg-6 col-md-6 col-sm-6">
-                <p>Consultas:</p>
+            <div class="col-3 col-lg-5 col-md-5 col-sm-5">
                 <p>Correo Profesional:</p>
             </div>
-            <div class="col-8 col-lg-6 col-md-6 col-sm-6">
-                <p>consulta@construcom.com</p>
-                <p>oficial@construcom.com</p>
+            <div class="col-9 col-lg-7 col-md-7 col-sm-7">
+                <a href="mailto:ladrillobarato@gmail.com" class="text-warning" title="correo" target="_blank">ladrillobarato@gmail.com</a>
             </div>
         </div>
         `
@@ -112,6 +111,7 @@ const activarItemsMenu = (tamanoDePantalla)=>{
     const acerca = document.getElementById("nosotros");
     const productos = document.getElementById("productos");
     const alcance = document.getElementById("alcance");
+    const faq = document.getElementById("faq");
     const contacto = document.getElementById("contacto");
 
 
@@ -120,6 +120,7 @@ const activarItemsMenu = (tamanoDePantalla)=>{
     let posicionAcerca=acerca.getBoundingClientRect().top;
     let posicionProductos=productos.getBoundingClientRect().top;
     let posicionAlcance=alcance.getBoundingClientRect().top;
+    let posicionFaq=faq.getBoundingClientRect().top;
     let posicionContacto=contacto.getBoundingClientRect().top;
 
 
@@ -140,10 +141,15 @@ const activarItemsMenu = (tamanoDePantalla)=>{
     }else{
         itemProductos.classList.remove("active-item");
     }
-    if(posicionAlcance<(tamanoDePantalla/3.2) && posicionContacto>(tamanoDePantalla/5)){
+    if(posicionAlcance<(tamanoDePantalla/3) && posicionFaq>(tamanoDePantalla/3.2)){
         itemAlcance.classList.add("active-item");
     }else{
         itemAlcance.classList.remove("active-item");
+    }
+    if(posicionFaq<(tamanoDePantalla/3.2) && posicionContacto>(tamanoDePantalla/5)){
+        itemFaq.classList.add("active-item");
+    }else{
+        itemFaq.classList.remove("active-item");
     }
     if(posicionContacto<(tamanoDePantalla/5)){
         itemContacto.classList.add("active-item");
@@ -180,3 +186,25 @@ window.addEventListener("orientationchange", ()=> {
         });
     
 });
+
+// ----------------------- Codigo para evitar ingresar a la pagina de Formspree ---------------------------
+
+const $form = document.querySelector('#contactform');
+
+$form.addEventListener('submit', handleSubmit);
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        const form = new FormData(this);
+        const response = await fetch(this.action, {
+           method: this.method,
+           body: form,
+           headers: {
+                'Accept': 'application/json'
+           }
+            });
+        if (response.ok) {
+           this.reset();
+           alert('Su correo ha sido enviado');
+        }
+     }
