@@ -806,20 +806,21 @@
                      <div id="message"></div>
                      <form id="contactform" class="row" name="contactform" action="https://formspree.io/f/mrgvzqzk" method="POST">
                         <fieldset class="row-fluid">
+                           <h4 class="text-center">Formulario de Contacto</h4>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre completo">
+                              <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre completo" required>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <input type="number" name="telefono" id="telefono" class="form-control" placeholder="N° de Telefono">
+                              <input type="number" name="telefono" id="telefono" class="form-control" placeholder="N° de Telefono" required>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                              <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <input type="text" name="asunto" id="asunto" class="form-control" placeholder="Asunto">
+                              <input type="text" name="asunto" id="asunto" class="form-control" placeholder="Asunto" required>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <textarea class="form-control" name="mensaje" id="mensaje" rows="6" placeholder="Tu Mensaje.."></textarea>
+                              <textarea class="form-control" name="mensaje" id="mensaje" rows="6" placeholder="Tu Mensaje.." required></textarea>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                               <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block button-form">Enviar</button>

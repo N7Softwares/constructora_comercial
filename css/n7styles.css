@@ -506,7 +506,11 @@ nav.fixed {
 .info-content p{
     color:var(--bs-secondary);
 }
-
+.contact_form h4{
+    font-weight: bold;
+    color: #1f1f1f;
+    /* text-transform: uppercase; */
+}
 .contact_form .form-control{
     border-bottom: 2px solid var(--bs-secondary);
     background-color:transparent;
@@ -525,7 +529,9 @@ input::placeholder,textarea::placeholder{
     color:var(--bs-primary);
     /* text-decoration:underline !important; */
 }
-
+.btn-light{
+    width:100%;
+}
 
 /* -------------------------------- Seccion de Footer -------------------------------------- */
 
